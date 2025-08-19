@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="PortalTransparencia" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/word" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="PortalTransparencia" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/word" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="dtDatosDemanda" Type="InArgument(sd:DataTable)" />
   </x:Members>
@@ -55,6 +55,7 @@
       <x:String>UiPath.Word.Activities</x:String>
       <x:String>System.Xml.Serialization</x:String>
       <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Numerics</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -120,36 +121,47 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
       <AssemblyReference>System.Private.Xml</AssemblyReference>
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="PortalTransparencia" sap:VirtualizedContainerService.HintSize="1290,7801" sap2010:WorkflowViewState.IdRef="Sequence_1">
-    <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Name="vSolicitudInformacion" />
-    </Sequence.Variables>
+  <Sequence DisplayName="PortalTransparencia" sap:VirtualizedContainerService.HintSize="1290,8471" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Principal Portal de Transparencia" sap:VirtualizedContainerService.HintSize="692,7778" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Principal Portal de Transparencia" sap:VirtualizedContainerService.HintSize="718,8448" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="strNombreCompleto" />
+        <Variable x:TypeArguments="x:String" Name="strNombre" />
+        <Variable x:TypeArguments="x:String" Name="strPaterno" />
+        <Variable x:TypeArguments="x:String" Name="strMaterno" />
+        <Variable x:TypeArguments="x:String" Name="strAutoridad" />
+        <Variable x:TypeArguments="x:String" Name="strAutoridad2" />
+        <Variable x:TypeArguments="x:String" Name="vSolicitudInformacion" />
+        <Variable x:TypeArguments="x:String" Name="strEntidad" />
+      </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Login Portal" sap:VirtualizedContainerService.HintSize="658,7695" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <Sequence DisplayName="Login Portal" sap:VirtualizedContainerService.HintSize="684,8365" sap2010:WorkflowViewState.IdRef="Sequence_3">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome Plataforma Nacional de Transparencia" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="624,7612" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V2">
+        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome Plataforma Nacional de Transparencia" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="650,8282" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V2">
           <uix:NApplicationCard.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="590,7331" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="616,8001" sap2010:WorkflowViewState.IdRef="Sequence_4">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="x:Boolean" Name="vAviso" />
                 </Sequence.Variables>
@@ -158,7 +170,7 @@
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Revisa si hay un aviso" sap:VirtualizedContainerService.HintSize="556,903" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                <Sequence DisplayName="Revisa si hay un aviso" sap:VirtualizedContainerService.HintSize="582,903" sap2010:WorkflowViewState.IdRef="Sequence_7">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -219,15 +231,15 @@
                     </If.Else>
                   </If>
                 </Sequence>
-                <Sequence DisplayName="Registrar en Portal Transparencia" sap:VirtualizedContainerService.HintSize="556,6366" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                <Sequence DisplayName="Registrar en Portal Transparencia" sap:VirtualizedContainerService.HintSize="582,7036" sap2010:WorkflowViewState.IdRef="Sequence_8">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Delay Duration="00:00:04" sap:VirtualizedContainerService.HintSize="522,123" sap2010:WorkflowViewState.IdRef="Delay_2" />
-                  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="522,57" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                  <Delay Duration="00:00:04" sap:VirtualizedContainerService.HintSize="548,123" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="548,57" sap2010:WorkflowViewState.IdRef="Sequence_12">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -278,7 +290,7 @@
                       </uix:NClick.VerifyOptions>
                     </uix:NClick>
                   </Sequence>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="5" DisplayName="Click 'Realiza una Solicitud d…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="522,227" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="5" DisplayName="Click 'Realiza una Solicitud d…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="548,227" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/dashboard-solicitante" ContentHash="Yo2Bp6YPLE-aY-8QwlAejQ" DesignTimeRectangle="544, 355, 446, 229" Guid="d3295335-64eb-47e7-bd50-505aa6890ffa" ImageBase64="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" InformativeScreenshot="eb1707da7ede6538dc8c4e323206bdcd.png" Reference="uT86UzNhlUel-TR6kBwA5A/YknM0BEndEuN2pY1DUtchQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
                     </uix:NClick.Target>
@@ -293,7 +305,7 @@
                       </uix:VerifyExecutionOptions>
                     </uix:NClick.VerifyOptions>
                   </uix:NClick>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click - Boton Cerrar" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="522,227" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click - Boton Cerrar" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="548,227" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="e7c00734-3341-45bf-b357-7bc65a08d62d" ContentHash="IYUHCPjq9UKgZLtG-6G8SA" CvElementArea="1355, 403, 25, 24" CvType="CloseButton" DesignTimeRectangle="1355, 403, 26, 26" ElementType="Button" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;p-dynamicdialog&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button' tag='BUTTON' type='button' /&gt;" Guid="543a7c8e-4825-422b-acb0-a24a64dfe551" InformativeScreenshot="c600e3c1358b02c2b7621600ea6f21b9.png" Reference="uT86UzNhlUel-TR6kBwA5A/g9kqHKvit0q8HEEEtDOi0A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                         <uix:TargetAnchorable.Anchors>
@@ -314,22 +326,21 @@
                       </uix:VerifyExecutionOptions>
                     </uix:NClick.VerifyOptions>
                   </uix:NClick>
-                  <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtDatosDemanda]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="522,5529" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                  <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtDatosDemanda]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="548,6199" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                     <ui:ForEachRow.Body>
                       <ActivityAction x:TypeArguments="sd:DataRow">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="520,5347" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="546,6017" sap2010:WorkflowViewState.IdRef="Sequence_13">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <Sequence DisplayName="Obtengo Preguntas para Transparencia" sap:VirtualizedContainerService.HintSize="486,57" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                          <Sequence DisplayName="Obtengo Preguntas para Transparencia" sap:VirtualizedContainerService.HintSize="512,57" sap2010:WorkflowViewState.IdRef="Sequence_10">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="x:String" Name="vWordFile" />
-                              <Variable x:TypeArguments="x:String" Name="strEntidad" />
                             </Sequence.Variables>
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -421,14 +432,106 @@
                               </p:WordApplicationScope.Body>
                             </p:WordApplicationScope>
                           </Sequence>
-                          <Sequence DisplayName="Obtengo datos generales" sap:VirtualizedContainerService.HintSize="486,122" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                          <Sequence DisplayName="Obtengo datos generales" sap:VirtualizedContainerService.HintSize="512,801" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                            <Sequence.Variables>
+                              <Variable x:TypeArguments="s:String[]" Name="arrPartesNombre" />
+                            </Sequence.Variables>
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
+                            <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478,273" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+                              <ui:MultipleAssign.AssignOperations>
+                                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
+                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+                                    <ui:AssignOperation.To>
+                                      <OutArgument x:TypeArguments="x:String">[strNombreCompleto]</OutArgument>
+                                    </ui:AssignOperation.To>
+                                    <ui:AssignOperation.Value>
+                                      <InArgument x:TypeArguments="x:String">[CurrentRow("Nombre").ToString]</InArgument>
+                                    </ui:AssignOperation.Value>
+                                  </ui:AssignOperation>
+                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+                                    <ui:AssignOperation.To>
+                                      <OutArgument x:TypeArguments="s:String[]">[arrPartesNombre]</OutArgument>
+                                    </ui:AssignOperation.To>
+                                    <ui:AssignOperation.Value>
+                                      <InArgument x:TypeArguments="s:String[]">[strNombreCompleto.Split(" "c)]</InArgument>
+                                    </ui:AssignOperation.Value>
+                                  </ui:AssignOperation>
+                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
+                                    <ui:AssignOperation.To>
+                                      <OutArgument x:TypeArguments="x:String">[strMaterno]</OutArgument>
+                                    </ui:AssignOperation.To>
+                                    <ui:AssignOperation.Value>
+                                      <InArgument x:TypeArguments="x:String">[arrPartesNombre.Last]</InArgument>
+                                    </ui:AssignOperation.Value>
+                                  </ui:AssignOperation>
+                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+                                    <ui:AssignOperation.To>
+                                      <OutArgument x:TypeArguments="x:String">[strMaterno]</OutArgument>
+                                    </ui:AssignOperation.To>
+                                    <ui:AssignOperation.Value>
+                                      <InArgument x:TypeArguments="x:String">[arrPartesNombre(arrPartesNombre.Length - 2)]</InArgument>
+                                    </ui:AssignOperation.Value>
+                                  </ui:AssignOperation>
+                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+                                    <ui:AssignOperation.To>
+                                      <OutArgument x:TypeArguments="x:String">[strNombre]</OutArgument>
+                                    </ui:AssignOperation.To>
+                                    <ui:AssignOperation.Value>
+                                      <InArgument x:TypeArguments="x:String">[string.Join(" ", arrPartesNombre.Take(arrPartesNombre.Length - 2))]</InArgument>
+                                    </ui:AssignOperation.Value>
+                                  </ui:AssignOperation>
+                                </scg:List>
+                              </ui:MultipleAssign.AssignOperations>
+                            </ui:MultipleAssign>
+                            <If Condition="[strEntidad = &quot;COAHUILA&quot;]" DisplayName="Si es COAHUILA LA AUTORIDAD" sap:VirtualizedContainerService.HintSize="478,436" sap2010:WorkflowViewState.IdRef="If_4">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <If.Then>
+                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,281" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_9">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="x:String">[strAutoridad]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="x:String">INSTITUTO</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                  <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_10">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="x:String">[strAutoridad2]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="x:String">SECRETARIA</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                </Sequence>
+                              </If.Then>
+                              <If.Else>
+                                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,25" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </Sequence>
+                              </If.Else>
+                            </If>
                           </Sequence>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="1" DisplayName="Type Into 'Nombre(s) o pseudónimo'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,251" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="Miguel Angel" Version="V5">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="1" DisplayName="Type Into 'Nombre(s) o pseudónimo'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,251" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="[strNombre.ToString]" Version="V5">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="8b32bc3f-5b0c-45b5-99c0-9d45799362b8" ContentHash="EZXk-7OIlEeGrJrT_kItrA" CvElementArea="510, 395, 386, 41" CvType="InputBox" DesignTimeRectangle="512, 397, 384, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='dsNombreFisica' tag='INPUT' type='text' class='p-inputtext p-component p-element ng-untouched ng-pristine ng-valid' placeholder='Nombre(s) o pseudónimo' aaname='Nombre(s) o pseudónimo' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="fd937d08-6ec0-4da8-8e5e-054a541f11f9" InformativeScreenshot="006baa757d023ec985aaf29104b8dbbc.png" Reference="uT86UzNhlUel-TR6kBwA5A/7d1hnkKM50-mufHD-Gz07w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -439,7 +542,7 @@
                               </uix:TargetAnchorable>
                             </uix:NTypeInto.Target>
                           </uix:NTypeInto>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Primer apellido'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,251" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="Flores" Version="V5">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Primer apellido'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,251" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="[strPaterno]" Version="V5">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="8b32bc3f-5b0c-45b5-99c0-9d45799362b8" ContentHash="sJVoUEUVgUmls1HGYq2qqQ" CvElementArea="920, 395, 386, 41" CvType="InputBox" DesignTimeRectangle="922, 397, 384, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='dsAppFisica' tag='INPUT' type='text' class='p-inputtext p-component p-element ng-untouched ng-pristine ng-valid' placeholder='Primer apellido' aaname='Primer apellido' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="924061d0-3a33-4409-9ae6-b312c5fa9f83" InformativeScreenshot="b0d6c1548188e835d31d98346006037e.png" Reference="uT86UzNhlUel-TR6kBwA5A/eDQ2Eo0gqE2tz02kh9Lk3w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -450,7 +553,7 @@
                               </uix:TargetAnchorable>
                             </uix:NTypeInto.Target>
                           </uix:NTypeInto>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Segundo apellido'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,251" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="Treviño" Version="V5">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Segundo apellido'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,251" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="[strMaterno]" Version="V5">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="8b32bc3f-5b0c-45b5-99c0-9d45799362b8" ContentHash="-xrW5l76nkqHHOHgYvgtOw" CvElementArea="1330, 396, 388, 40" CvType="InputBox" DesignTimeRectangle="1332, 397, 384, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='dsApmFisica' tag='INPUT' type='text' class='p-inputtext p-component p-element ng-untouched ng-pristine ng-valid' placeholder='Segundo apellido' aaname='Segundo apellido' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b167da52-7145-4dad-8ac9-6888b4b5305c" InformativeScreenshot="462320fd6fad8f029d856d7c56bd5c0e.png" Reference="uT86UzNhlUel-TR6kBwA5A/jYJ8FM65gEuo3l6xUKU1AQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -461,7 +564,7 @@
                               </uix:TargetAnchorable>
                             </uix:NTypeInto.Target>
                           </uix:NTypeInto>
-                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,255" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(down)][u(hk)]" Version="V5">
+                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,255" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(down)][u(hk)]" Version="V5">
                             <uix:NKeyboardShortcuts.VerifyOptions>
                               <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                                 <uix:VerifyExecutionOptions.Retry>
@@ -473,7 +576,7 @@
                               </uix:VerifyExecutionOptions>
                             </uix:NKeyboardShortcuts.VerifyOptions>
                           </uix:NKeyboardShortcuts>
-                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(down)][u(hk)]" Version="V5">
+                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(down)][u(hk)]" Version="V5">
                             <uix:NKeyboardShortcuts.VerifyOptions>
                               <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                                 <uix:VerifyExecutionOptions.Retry>
@@ -485,7 +588,7 @@
                               </uix:VerifyExecutionOptions>
                             </uix:NKeyboardShortcuts.VerifyOptions>
                           </uix:NKeyboardShortcuts>
-                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(tab)][u(hk)]" Version="V5">
+                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(tab)][u(hk)]" Version="V5">
                             <uix:NKeyboardShortcuts.VerifyOptions>
                               <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                                 <uix:VerifyExecutionOptions.Retry>
@@ -497,7 +600,7 @@
                               </uix:VerifyExecutionOptions>
                             </uix:NKeyboardShortcuts.VerifyOptions>
                           </uix:NKeyboardShortcuts>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Institución *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,251" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="Finanzas" Version="V5">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Institución *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,251" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="[strAutoridad]" Version="V5">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="6b341471-a1e7-460f-b220-8e48d253eefd" ContentHash="crUbmWp4ekSSgZaoqBa5fw" CvTextArea="521, 787, 153, 13" CvTextArgument="CS - Secretaría de Finanzas" CvType="Text" DesignTimeRectangle="512, 774, 354, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='searchbox' tag='INPUT' type='text' class='ng-tns-c41-115 p-autocomplete-input p-inputtext p-component p-autocomplete-dd-input ng-star-inserted' placeholder='---Seleccionar---' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="367d5c30-2004-4850-aae0-240a3f9f6b0d" InformativeScreenshot="c0567701a3723cddd93b941272e8758f.png" IsResponsive="True" Reference="uT86UzNhlUel-TR6kBwA5A/5X71nNBf1EuXEa2pXPlPYA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -508,7 +611,7 @@
                               </uix:TargetAnchorable>
                             </uix:NTypeInto.Target>
                           </uix:NTypeInto>
-                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V5">
+                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V5">
                             <uix:NKeyboardShortcuts.VerifyOptions>
                               <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                                 <uix:VerifyExecutionOptions.Retry>
@@ -520,7 +623,7 @@
                               </uix:VerifyExecutionOptions>
                             </uix:NKeyboardShortcuts.VerifyOptions>
                           </uix:NKeyboardShortcuts>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Agregar(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,227" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Agregar(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,227" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="f071b4f1-60cf-4730-a57d-9aaf9ce503cd" ContentHash="wxs6FqW37USGGyZhNAeAnA" CvElementArea="921, 356, 386, 41" CvTextArea="1089, 372, 49, 15" CvTextArgument="Agregar" CvType="Button" DesignTimeRectangle="922, 358, 384, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Agregar' tag='BUTTON' type='button' class='p-ripple p-element p-button p-component' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Agregar' /&gt;" Guid="ab053afb-e52d-41eb-83a5-75ad3c3f0779" InformativeScreenshot="3fbc11c148e0ff24e5abccee09b7b309.png" Reference="uT86UzNhlUel-TR6kBwA5A/2gS3C-b5tEymMRTVVtQL7Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -541,7 +644,7 @@
                               </uix:VerifyExecutionOptions>
                             </uix:NClick.VerifyOptions>
                           </uix:NClick>
-                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,255" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_7" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][d(shift)][k(Tab)][u(shift)][u(hk)][d(hk)][d(shift)][k(Tab)][u(shift)][u(hk)][d(hk)][d(shift)][k(tab)][u(shift)][u(hk)]" Version="V5">
+                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,255" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_7" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][d(shift)][k(Tab)][u(shift)][u(hk)][d(hk)][d(shift)][k(Tab)][u(shift)][u(hk)][d(hk)][d(shift)][k(tab)][u(shift)][u(hk)]" Version="V5">
                             <uix:NKeyboardShortcuts.VerifyOptions>
                               <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                                 <uix:VerifyExecutionOptions.Retry>
@@ -553,7 +656,7 @@
                               </uix:VerifyExecutionOptions>
                             </uix:NKeyboardShortcuts.VerifyOptions>
                           </uix:NKeyboardShortcuts>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Institución *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,251" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="instituto reg" Version="V5">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Institución *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,251" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="[strAutoridad2]" Version="V5">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="6b1f242e-b0f3-495a-af2f-ca5259deee7e" ContentHash="DTCTxXm7IEeAasKvkkPq0w" CvTextArea="521, 787, 70, 16" CvTextArgument="instituto reg" CvType="Text" DesignTimeRectangle="512, 774, 354, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='searchbox' tag='INPUT' type='text' class='ng-tns-c41-115 p-autocomplete-input p-inputtext p-component p-autocomplete-dd-input ng-star-inserted' placeholder='---Seleccionar---' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="91e4b4f0-6a32-415b-a553-c7276bfc3e21" InformativeScreenshot="a164e33eed2846cbd4ff6d13404d97f3.png" IsResponsive="True" Reference="uT86UzNhlUel-TR6kBwA5A/3BiDtP-DS0qNqND5vuASNA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -564,7 +667,7 @@
                               </uix:TargetAnchorable>
                             </uix:NTypeInto.Target>
                           </uix:NTypeInto>
-                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V5">
+                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V5">
                             <uix:NKeyboardShortcuts.VerifyOptions>
                               <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                                 <uix:VerifyExecutionOptions.Retry>
@@ -576,7 +679,7 @@
                               </uix:VerifyExecutionOptions>
                             </uix:NKeyboardShortcuts.VerifyOptions>
                           </uix:NKeyboardShortcuts>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Agregar(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,227" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Agregar(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,227" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="f071b4f1-60cf-4730-a57d-9aaf9ce503cd" ContentHash="wxs6FqW37USGGyZhNAeAnA" CvElementArea="921, 356, 386, 41" CvTextArea="1089, 372, 49, 15" CvTextArgument="Agregar" CvType="Button" DesignTimeRectangle="922, 358, 384, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Agregar' tag='BUTTON' type='button' class='p-ripple p-element p-button p-component' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Agregar' /&gt;" Guid="ab053afb-e52d-41eb-83a5-75ad3c3f0779" InformativeScreenshot="3fbc11c148e0ff24e5abccee09b7b309.png" Reference="uT86UzNhlUel-TR6kBwA5A/2gS3C-b5tEymMRTVVtQL7Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -597,7 +700,7 @@
                               </uix:VerifyExecutionOptions>
                             </uix:NClick.VerifyOptions>
                           </uix:NClick>
-                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_8" Shortcuts="[d(hk)][k(tab)][u(hk)]" Version="V5">
+                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_8" Shortcuts="[d(hk)][k(tab)][u(hk)]" Version="V5">
                             <uix:NKeyboardShortcuts.VerifyOptions>
                               <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                                 <uix:VerifyExecutionOptions.Retry>
@@ -609,7 +712,7 @@
                               </uix:VerifyExecutionOptions>
                             </uix:NKeyboardShortcuts.VerifyOptions>
                           </uix:NKeyboardShortcuts>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Detalle de la solicitud…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,251" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="[vSolicitudInformacion]" Version="V5">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Detalle de la solicitud…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,251" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="[vSolicitudInformacion]" Version="V5">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="d956ef9a-aee4-4464-b7ff-e0e5cbe27f90" ContentHash="os95Mjws7km4HEe1QL5e6g" CvElementArea="464, 588, 1211, 150" CvType="InputBox" DesignTimeRectangle="466, 590, 1205, 148" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='dsDetalleSolicitud' tag='TEXTAREA' type='' class='p-inputtextarea p-inputtext p-component p-element ng-pristine ng-invalid ng-touched' placeholder='Describe con claridad tu solicitud respecto de la información que deseas conocer' aaname='Detalle de la solicitud *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="75e310ff-f4f7-4070-ad27-db57b40dce33" InformativeScreenshot="04f651c3d6dae03f7cd93a6817dad37f.png" IsResponsive="True" Reference="uT86UzNhlUel-TR6kBwA5A/fZQqUxXT9UGCILpCsPdqJQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -620,7 +723,7 @@
                               </uix:TargetAnchorable>
                             </uix:NTypeInto.Target>
                           </uix:NTypeInto>
-                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_9" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(tab)][u(hk)]" Version="V5">
+                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_9" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(tab)][u(hk)]" Version="V5">
                             <uix:NKeyboardShortcuts.VerifyOptions>
                               <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                                 <uix:VerifyExecutionOptions.Retry>
@@ -632,7 +735,7 @@
                               </uix:VerifyExecutionOptions>
                             </uix:NKeyboardShortcuts.VerifyOptions>
                           </uix:NKeyboardShortcuts>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'Correo electrónico'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,190" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'Correo electrónico'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,190" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="535bae28-3abe-481d-a0ba-4bed04e6ff3f" ContentHash="5Hj4AXbx-EyMM4MjSZwkCg" CvElementArea="464, 708, 24, 24" CvType="RadioButton" DesignTimeRectangle="470, 714, 12, 12" FullSelectorArgument="&lt;webctrl class='p-radiobutton-icon' idx='4' tag='SPAN' /&gt;" Guid="c02598d8-81c5-41d3-a1b7-60b511f10d97" InformativeScreenshot="460495c2ac0205a57900f49b10db4ee5.png" Reference="uT86UzNhlUel-TR6kBwA5A/cD8EA3VzbEK2zkPxJfHlMg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -643,12 +746,12 @@
                               </uix:TargetAnchorable>
                             </uix:NClick.Target>
                           </uix:NClick>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="1" DisplayName="Escribe correo" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,251" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="ssanchez@afalaguna.com" Version="V5">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="1" DisplayName="Escribe correo" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,251" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="ssanchez@afalaguna.com" Version="V5">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="336eb86d-03b9-43b3-a89e-2cb63a8fee76" ContentHash="wR8FnX1A8k-xYH8bW4JJng" CvElementArea="485, 741, 604, 41" CvType="InputBox" DesignTimeRectangle="485, 743, 603, 38" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='dsEmail4' tag='INPUT' /&gt;" Guid="966f06b0-33e1-497a-8e55-f847597f0fd2" InformativeScreenshot="ff198991e9dfd15833e2de18f8c6a6c5.png" Reference="uT86UzNhlUel-TR6kBwA5A/KOhOP3ktDE-hR8a-WSNpxg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
                             </uix:NTypeInto.Target>
                           </uix:NTypeInto>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Electrónico a través de…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,227" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Electrónico a través de…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,227" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="daae13f5-2340-4e86-b026-6467c00a9ee1" ContentHash="UT-cDed6Q0ud64Yw7_seww" CvElementArea="464, 921, 24, 24" CvType="RadioButton" DesignTimeRectangle="466, 923, 20, 20" FullSelectorArgument="&lt;webctrl class='p-radiobutton-box' idx='5' tag='DIV' /&gt;" Guid="e252124d-2271-4c36-b9b3-df1e0bef122a" InformativeScreenshot="9929af00a7bb87198322f7d9291adc99.png" Reference="uT86UzNhlUel-TR6kBwA5A/dJfQNvtnwki_Ass8BbNtJw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -669,7 +772,7 @@
                               </uix:VerifyExecutionOptions>
                             </uix:NClick.VerifyOptions>
                           </uix:NClick>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'He leído el Aviso de Pr…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,227" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'He leído el Aviso de Pr…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,227" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="f0f672bf-ad57-40ba-850d-6c56f03ae18f" ContentHash="XnVBVGHLHke9_zeKcTF_dA" CvElementArea="464, 979, 23, 22" CvType="CheckBox" DesignTimeRectangle="466, 980, 20, 20" FullSelectorArgument="&lt;webctrl class='p-checkbox-box' css-selector='body&amp;gt;app-root&amp;gt;app-admin&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-acceso-informacion&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p-checkbox&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" Guid="a8614211-a76b-41e3-b8d1-44c7b2ab0ea6" InformativeScreenshot="ed36beaeb7ff5d03c6b0a5218c5ea5e7.png" Reference="uT86UzNhlUel-TR6kBwA5A/9YH023lhQUucJIHnn9A2oA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -690,7 +793,7 @@
                               </uix:VerifyExecutionOptions>
                             </uix:NClick.VerifyOptions>
                           </uix:NClick>
-                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_10" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(tab)][u(hk)]" Version="V5">
+                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="512,240" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_10" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(tab)][u(hk)]" Version="V5">
                             <uix:NKeyboardShortcuts.VerifyOptions>
                               <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                                 <uix:VerifyExecutionOptions.Retry>
@@ -706,7 +809,7 @@
                       </ActivityAction>
                     </ui:ForEachRow.Body>
                   </ui:ForEachRow>
-                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="522,116" sap2010:WorkflowViewState.IdRef="Delay_5" />
+                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="548,116" sap2010:WorkflowViewState.IdRef="Delay_5" />
                 </Sequence>
               </Sequence>
             </ActivityAction>
