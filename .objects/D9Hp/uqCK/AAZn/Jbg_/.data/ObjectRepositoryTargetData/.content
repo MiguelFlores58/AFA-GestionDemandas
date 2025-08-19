@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-OWRkjACZEqgx3IkOAW5dw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/auth/login" CVScreenId="d59b9141-d157-4070-b048-7d34bb1c6ba5" CvElementArea="1261, 693, 245, 47" CvTextArea="1346, 710, 75, 13" CvTextArgument="Iniciar sesión" CvType="Button" DesignTimeRectangle="1263, 694, 241, 44" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='p-element p-ripple w-full py-3 p-button p-component' aaname='Iniciar sesión' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Iniciar sesión' /&gt;" Guid="85e7c94e-cbe8-4bf3-a387-d6c517a94a72" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d59b9141-d157-4070-b048-7d34bb1c6ba5" CvElementArea="1261, 693, 245, 47" CvTextArea="1346, 710, 75, 13" CvTextArgument="Iniciar sesión" CvType="Button" DesignTimeRectangle="1277, 708, 214, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Iniciar sesión' class='p-button-label' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Iniciar sesión' /&gt;" Guid="577c6643-779d-4fac-b5e9-590cd7d263dd" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e1e83f8a7e2886b8220ca973992f39cc.png" xmlns="">0LxLWWloKP0SSoHxrHhN32w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

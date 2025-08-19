@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Firmarse",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "gNM8POBqTEOQ8GBmySSQIg",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/gNM8POBqTEOQ8GBmySSQIg",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/myTa470iAUCCN1yd_KQbgw",
+  "Created": "2025-07-24T17:08:10.6463628Z",
+  "Updated": "2025-07-24T17:08:10.6463628Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

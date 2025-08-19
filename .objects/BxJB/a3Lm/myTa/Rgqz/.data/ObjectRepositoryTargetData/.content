@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hELNd-0YeU6s-n4irmIfwA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Login.aspx" CVScreenId="2a407d63-b45d-4989-856f-8836b5254cf7" CvElementArea="1547, 377, 166, 30" CvType="InputBox" DesignTimeRectangle="1549, 379, 162, 27" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='password' tag='INPUT' class='' aaname='Clave de acceso:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="9a098e29-e924-42ce-8757-61daf9604c08" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SISE 156' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2a407d63-b45d-4989-856f-8836b5254cf7" CvTextArea="1444, 385, 93, 12" CvTextArgument="Clave de acceso:" CvType="Text" DesignTimeRectangle="1445, 385, 92, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='LABEL' class='' aaname='Clave de acceso:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Clave de acceso:' /&gt;" Guid="1becbb91-c028-48fb-abd1-0671c4719b47" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d1fb54841a7772c278b32c7de7123536.png" xmlns="">0xTNmXqQ7jE-7fp2WL3eDXg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

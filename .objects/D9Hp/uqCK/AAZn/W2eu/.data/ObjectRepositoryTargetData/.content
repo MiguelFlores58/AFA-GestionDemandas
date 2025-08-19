@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="x0So63r5sEO0foUYDbthng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/Inicio" CVScreenId="19e9d8a7-7f13-42f2-9724-1993557000a2" CvElementArea="1548, 330, 23, 23" CvTextArea="361, 336, 49, 15" CvTextArgument="Avisos" CvType="CloseButton" DesignTimeRectangle="344, 311, 1248, 65" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;app-skeleton&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-home&amp;gt;p-dialog&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' tag='DIV' /&gt;" Guid="add19344-6c56-4cdf-a4aa-f6345f0e904a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="19e9d8a7-7f13-42f2-9724-1993557000a2" CvElementArea="361, 387, 190, 53" CvTextArea="381, 407, 151, 13" CvTextArgument="Cambios en la Plataforma" CvType="Button" DesignTimeRectangle="382, 408, 149, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Cambios en la Plataforma' tag='SPAN' type='' class='p-tabview-title ng-star-inserted' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Cambios en la Plataforma' /&gt;" Guid="95044bf6-9392-49f1-8517-60ed75c1babe" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c3b31389e15cba85c509d5cb5de59e00.png" xmlns="">0rQKNvseDoUGZhIfJbAqIlA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

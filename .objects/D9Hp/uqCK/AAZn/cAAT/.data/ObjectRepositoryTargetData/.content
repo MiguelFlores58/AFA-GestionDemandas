@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QHLTPhUiwEKl7jrgwINVmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="55989a97-dac0-4c43-9b35-3facd409f7d0" CvElementArea="511, 381, 386, 40" CvType="InputBox" DesignTimeRectangle="512, 382, 384, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentname='catEntidadesFederativas' tag='DIV' type='' class='ng-tns-c44-112 p-dropdown p-component p-dropdown-clearable' aaname='' matching:parentname='fuzzy' fuzzylevel:parentname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f4bdc69a-eed0-419a-9c16-8963c87a3e50" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="521, 366, 114, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Estado o Federación' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Estado o Federación' /&gt;" Guid="307feec5-d3b8-4c11-9d16-7a104831c30c" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="268e06cba482d2d1379bfb479504688f.png" xmlns="">0jRLh6xPAUkWaSnymI64DOA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

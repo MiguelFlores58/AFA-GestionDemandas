@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome SISE 156",
+  "Type": "Screen",
+  "Id": "myTa470iAUCCN1yd_KQbgw",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/myTa470iAUCCN1yd_KQbgw",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/a3Lm8xSz50-DfARs0LzhVw",
+  "Created": "2025-07-24T17:06:19.2976952Z",
+  "Updated": "2025-07-24T17:06:19.2976952Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

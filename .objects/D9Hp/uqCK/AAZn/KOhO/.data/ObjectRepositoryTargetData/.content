@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wR8FnX1A8k-xYH8bW4JJng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="336eb86d-03b9-43b3-a89e-2cb63a8fee76" CvElementArea="485, 741, 604, 41" CvType="InputBox" DesignTimeRectangle="485, 743, 603, 38" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='dsEmail4' tag='INPUT' /&gt;" Guid="966f06b0-33e1-497a-8e55-f847597f0fd2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ff198991e9dfd15833e2de18f8c6a6c5.png" xmlns="">0wvamix-VTUywrADXG07Xxg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

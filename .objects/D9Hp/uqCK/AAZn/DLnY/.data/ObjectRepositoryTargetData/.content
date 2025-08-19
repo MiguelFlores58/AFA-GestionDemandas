@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PiF6rDh-CkWdVRWRYEVpEw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="9b50732c-7573-45ef-9f01-63dab91a69ab" CvElementArea="510, 356, 384, 40" CvType="InputBox" DesignTimeRectangle="512, 358, 384, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid='inputListSO' tag='SPAN' type='' class='ng-tns-c41-115 p-autocomplete p-component p-autocomplete-dd' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="7d37de9c-c003-452e-b42a-104cd8d1c1df" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="521, 342, 69, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='text-900' tag='LABEL' type='' aaname='Institución *' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Institución *' /&gt;" Guid="52033e65-715d-4987-bcb3-f9bb89371d48" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="99b370a2cc5615526b0b76a8cd1d6df2.png" xmlns="">01EXEqAB6qE-iFClMsQrNRQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

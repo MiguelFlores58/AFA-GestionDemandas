@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Cambios en la Plataforma",
+  "Type": "Element",
+  "Id": "W2euCKzmkUaRuCfU7_AAIQ",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/W2euCKzmkUaRuCfU7_AAIQ",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "Created": "2025-07-24T17:20:01.3113848Z",
+  "Updated": "2025-07-24T17:20:01.3113848Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

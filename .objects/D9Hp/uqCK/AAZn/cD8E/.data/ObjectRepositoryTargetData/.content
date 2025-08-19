@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5Hj4AXbx-EyMM4MjSZwkCg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="535bae28-3abe-481d-a0ba-4bed04e6ff3f" CvElementArea="464, 708, 24, 24" CvType="RadioButton" DesignTimeRectangle="470, 714, 12, 12" FullSelectorArgument="&lt;webctrl class='p-radiobutton-icon' idx='4' tag='SPAN' /&gt;" Guid="c02598d8-81c5-41d3-a1b7-60b511f10d97" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="535bae28-3abe-481d-a0ba-4bed04e6ff3f" CvTextArea="495, 712, 112, 13" CvTextArgument="Correo electrónico" CvType="Text" DesignTimeRectangle="496, 713, 110, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Correo electrónico' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Correo electrónico' /&gt;" Guid="7777161f-9961-4717-b65d-11c406cff496" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="460495c2ac0205a57900f49b10db4ee5.png" xmlns="">0lyfqoEp4SEa6pJimEmk7mA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

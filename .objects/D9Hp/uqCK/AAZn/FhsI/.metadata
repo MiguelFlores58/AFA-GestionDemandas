@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Iniciar sesión",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "FhsIJ-1Se0yt0w7Q7nNTvg",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/FhsIJ-1Se0yt0w7Q7nNTvg",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "Created": "2025-07-24T17:24:11.8034029Z",
+  "Updated": "2025-07-24T17:24:11.8034029Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

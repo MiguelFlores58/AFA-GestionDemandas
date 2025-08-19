@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Plataforma Nacional de Transparencia",
+  "Type": "Screen",
+  "Id": "AAZnStpQvUeHZMtFznOYNQ",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/uqCKH5iPlUC1FSS4xhhY_A",
+  "Created": "2025-07-24T17:19:25.0637137Z",
+  "Updated": "2025-07-24T17:19:25.0637137Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

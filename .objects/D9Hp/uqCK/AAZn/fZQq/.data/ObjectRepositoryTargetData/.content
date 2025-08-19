@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="os95Mjws7km4HEe1QL5e6g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="d956ef9a-aee4-4464-b7ff-e0e5cbe27f90" CvElementArea="464, 588, 1211, 150" CvType="InputBox" DesignTimeRectangle="466, 590, 1205, 148" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='dsDetalleSolicitud' tag='TEXTAREA' type='' class='p-inputtextarea p-inputtext p-component p-element ng-pristine ng-invalid ng-touched' placeholder='Describe con claridad tu solicitud respecto de la información que deseas conocer' aaname='Detalle de la solicitud *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="75e310ff-f4f7-4070-ad27-db57b40dce33" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d956ef9a-aee4-4464-b7ff-e0e5cbe27f90" CvTextArea="475, 572, 130, 13" CvTextArgument="Detalle de la solicitud *" CvType="Text" DesignTimeRectangle="476, 574, 129, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Detalle de la solicitud *' tag='LABEL' type='' class='font-medium text-900' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Detalle de la solicitud *' /&gt;" Guid="780439d7-40f3-4982-8e84-2065c3888791" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="04f651c3d6dae03f7cd93a6817dad37f.png" xmlns="">0zXvVwpoVc0-l9c_x7H78hg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

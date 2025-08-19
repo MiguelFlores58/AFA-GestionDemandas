@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Portal de Servicios en Línea del Poder Judicial de la Federación - Consejo de la",
+  "Type": "App",
+  "Id": "RBk1vP6K3Uq_KsveKlMQCA",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/RBk1vP6K3Uq_KsveKlMQCA",
+  "Created": "2025-07-24T17:02:30.3272187Z",
+  "Updated": "2025-07-24T17:02:30.3272187Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

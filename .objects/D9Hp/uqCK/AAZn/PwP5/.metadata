@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Institución (1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "PwP5WleN0U-REg2LzDQU6A",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/PwP5WleN0U-REg2LzDQU6A",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "Created": "2025-08-01T15:11:29.3573698Z",
+  "Updated": "2025-08-01T15:11:29.3573698Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

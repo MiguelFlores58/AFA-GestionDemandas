@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Electrónico a través de…",
+  "Type": "Element",
+  "Id": "dJfQNvtnwki_Ass8BbNtJw",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/dJfQNvtnwki_Ass8BbNtJw",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "Created": "2025-08-01T16:03:40.4702156Z",
+  "Updated": "2025-08-01T16:03:40.4702156Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

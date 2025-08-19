@@ -1,0 +1,13 @@
+﻿{
+  "Name": "He leído el Aviso de Pr…",
+  "Type": "Element",
+  "Id": "9YH023lhQUucJIHnn9A2oA",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/9YH023lhQUucJIHnn9A2oA",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "Created": "2025-08-01T16:04:21.2828289Z",
+  "Updated": "2025-08-01T16:04:21.2828289Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

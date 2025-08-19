@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Plataforma Nacional de Transparencia",
+  "Type": "App",
+  "Id": "D9HpFNOKvEuAxv1h3p9djg",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/D9HpFNOKvEuAxv1h3p9djg",
+  "Created": "2025-07-24T17:19:25.0014044Z",
+  "Updated": "2025-07-24T17:19:25.0014044Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

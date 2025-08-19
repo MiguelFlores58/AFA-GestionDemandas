@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jBafDMYxfEaQqzbrFcXEZw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/Inicio" CVScreenId="19e9d8a7-7f13-42f2-9724-1993557000a2" CvElementArea="1493, 806, 75, 42" CvTextArea="1507, 822, 47, 15" CvTextArgument="Aceptar" CvType="Button" DesignTimeRectangle="1495, 808, 71, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Aceptar' tag='BUTTON' type='button' class='p-ripple p-element p-button p-component' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Aceptar' /&gt;" Guid="43889221-0b2f-4e7e-a89a-7eaf62ba8003" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="19e9d8a7-7f13-42f2-9724-1993557000a2" CvElementArea="1493, 806, 75, 42" CvTextArea="1507, 822, 47, 15" CvTextArgument="Aceptar" CvType="Button" DesignTimeRectangle="1509, 819, 44, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Aceptar' tag='SPAN' type='' class='p-button-label ng-star-inserted' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Aceptar' /&gt;" Guid="ecb051a4-0c70-42ba-9e96-568e8073178f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b7b0fe7674c9bf7a0f9c3c760475332f.png" xmlns="">0W5_6aJMYfESa4U3H9u6Z3w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

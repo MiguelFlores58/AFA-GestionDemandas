@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Realiza una Solicitud d…",
+  "Type": "Element",
+  "Id": "YknM0BEndEuN2pY1DUtchQ",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/YknM0BEndEuN2pY1DUtchQ",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "Created": "2025-08-01T14:58:52.2238744Z",
+  "Updated": "2025-08-01T14:58:52.2238744Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

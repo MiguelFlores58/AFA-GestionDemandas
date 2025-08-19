@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="84t9lf_duE24lzmP4-RMJw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/Login" CVScreenId="11572a70-0345-4f64-8fe6-861e0d0635c0" CvElementArea="871, 678, 69, 32" CvTextArea="882, 686, 46, 14" CvTextArgument="Ingresar" CvType="Button" DesignTimeRectangle="872, 679, 66, 30" ElementType="Button" FullSelectorArgument="&lt;webctrl id='btnIngresaLogin' tag='INPUT' /&gt;" Guid="eb891452-7534-4fa8-90f1-09d288b91e8f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Portal de Servicios en Línea del Poder Judicial de la Federación - Consejo de la Judicatura Federal' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3ecf5eaf903eb9221b7c8be821859e93.png" xmlns="">0jmscOfx13EmyWYwmTvwnxw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

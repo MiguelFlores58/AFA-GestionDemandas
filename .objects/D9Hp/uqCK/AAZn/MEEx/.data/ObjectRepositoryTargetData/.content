@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6-t49gwzQ0S_Zf4DsQDJbQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="89aa712c-4586-44c0-865b-b9f0fc1a12ce" CvElementArea="922, 280, 384, 40" CvType="InputBox" DesignTimeRectangle="923, 283, 352, 36" ElementType="Text" FullSelectorArgument="&lt;webctrl parentname='catOrganosGarantesFederal' tag='SPAN' /&gt;" Guid="15509df1-c123-481c-90de-b8df8911189e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="89aa712c-4586-44c0-865b-b9f0fc1a12ce" CvTextArea="929, 265, 151, 12" CvTextArgument="Autoridad Garante Federal" CvType="Text" DesignTimeRectangle="929, 265, 152, 12" ElementType="Text" Guid="1224ad65-6b5e-492c-8af7-fa762b9d048a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7b3a5d302f549806e1d4796c8410d063.png" xmlns="">0ypMiMMXHXkSQDfh_JJQzbA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XnVBVGHLHke9_zeKcTF_dA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="f0f672bf-ad57-40ba-850d-6c56f03ae18f" CvElementArea="464, 979, 23, 22" CvType="CheckBox" DesignTimeRectangle="466, 980, 20, 20" FullSelectorArgument="&lt;webctrl class='p-checkbox-box' css-selector='body&amp;gt;app-root&amp;gt;app-admin&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-acceso-informacion&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p-checkbox&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" Guid="a8614211-a76b-41e3-b8d1-44c7b2ab0ea6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f0f672bf-ad57-40ba-850d-6c56f03ae18f" CvTextArea="492, 984, 740, 12" CvTextArgument="He leído el Aviso de Privacidad y otorgo mi consentimiento para que los datos personales sean tratados conforme al mismo." CvType="Text" DesignTimeRectangle="493, 981, 738, 18" FuzzySelectorArgument="&lt;webctrl type='' tag='SPAN' class='ml-2 text-900' aaname=' He leído el  y otorgo mi consentimiento para que los datos personales sean tratados conforme al mismo. ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='He leído el Aviso de Privacidad y otorgo mi consentimiento para que los datos personales sean tratados conforme al mismo.' /&gt;" Guid="d0f6db02-103a-4421-b5ef-53e2d358e115" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ed36beaeb7ff5d03c6b0a5218c5ea5e7.png" xmlns="">0Vl_Uikw5m0C7eo48Va1ASw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

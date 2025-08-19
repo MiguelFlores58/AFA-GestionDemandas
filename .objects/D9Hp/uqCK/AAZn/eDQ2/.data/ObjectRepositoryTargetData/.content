@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sJVoUEUVgUmls1HGYq2qqQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="8b32bc3f-5b0c-45b5-99c0-9d45799362b8" CvElementArea="920, 395, 386, 41" CvType="InputBox" DesignTimeRectangle="922, 397, 384, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='dsAppFisica' tag='INPUT' type='text' class='p-inputtext p-component p-element ng-untouched ng-pristine ng-valid' placeholder='Primer apellido' aaname='Primer apellido' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="924061d0-3a33-4409-9ae6-b312c5fa9f83" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8b32bc3f-5b0c-45b5-99c0-9d45799362b8" CvElementArea="920, 395, 386, 41" CvType="InputBox" DesignTimeRectangle="931, 409, 91, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Primer apellido' tag='LABEL' type='' class='font-medium text-900' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Primer apellido' /&gt;" Guid="34432fd6-f78f-40af-b57e-c17ed3596d1a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b0d6c1548188e835d31d98346006037e.png" xmlns="">0yL28XUcjaUyp36pkoeA9zw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

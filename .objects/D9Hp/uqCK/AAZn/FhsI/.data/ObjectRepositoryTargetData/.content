@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iDkhWaz2CUiEbtnF-UB-Zg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/Inicio" CVScreenId="67ea379f-8b00-4dc0-9957-d241be81cb2c" CvElementArea="1717, 149, 166, 42" CvTextArea="1750, 160, 99, 16" CvTextArgument="Iniciar sesión" CvType="Button" DesignTimeRectangle="1719, 151, 162, 38" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Iniciar sesión' tag='A' /&gt;" Guid="d7aec013-48a4-4786-bde3-ec1b229d0f22" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ed436477b07c92cc6fbad5ffc57dc4a7.png" xmlns="">07jRXnmVRkUqSQ_oQmME8Tg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

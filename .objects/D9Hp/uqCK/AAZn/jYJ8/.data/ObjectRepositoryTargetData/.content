@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-xrW5l76nkqHHOHgYvgtOw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="8b32bc3f-5b0c-45b5-99c0-9d45799362b8" CvElementArea="1330, 396, 388, 40" CvType="InputBox" DesignTimeRectangle="1332, 397, 384, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='dsApmFisica' tag='INPUT' type='text' class='p-inputtext p-component p-element ng-untouched ng-pristine ng-valid' placeholder='Segundo apellido' aaname='Segundo apellido' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b167da52-7145-4dad-8ac9-6888b4b5305c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8b32bc3f-5b0c-45b5-99c0-9d45799362b8" CvElementArea="1330, 396, 388, 40" CvType="InputBox" DesignTimeRectangle="1341, 409, 103, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Segundo apellido' tag='LABEL' type='' class='font-medium text-900' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Segundo apellido' /&gt;" Guid="e326e29a-5fc6-4065-834c-2e1bea5a211a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="462320fd6fad8f029d856d7c56bd5c0e.png" xmlns="">0F6o5wTb1r0Gxr9QfxFeQpw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

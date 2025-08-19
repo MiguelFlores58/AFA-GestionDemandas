@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Autoridad Garante Estat…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "APuXnLXOTEanV50QCI2kBg",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/APuXnLXOTEanV50QCI2kBg",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "Created": "2025-08-01T15:08:18.4035266Z",
+  "Updated": "2025-08-01T15:08:18.4035266Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

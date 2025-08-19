@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uTCVHem_LEmUYhjDFFjcXg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/auth/login" CVScreenId="14c0a85d-37eb-4485-87b7-82ebb4648a67" CvElementArea="996, 354, 508, 40" CvType="InputBox" DesignTimeRectangle="997, 356, 507, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='inputTextEmail' tag='INPUT' type='email' class='p-inputtext p-component p-element w-full ng-untouched ng-pristine ng-invalid' aaname='Correo electrónico' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="3989aa85-7969-4fc9-9785-cbd3d1057e35" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="14c0a85d-37eb-4485-87b7-82ebb4648a67" CvElementArea="996, 354, 508, 40" CvType="InputBox" DesignTimeRectangle="1007, 368, 110, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Correo electrónico' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Correo electrónico' /&gt;" Guid="e07e280a-783d-42cd-bbf1-3310ae7828ad" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ac2b92c2d041231adbc82d8debc4d6d1.png" xmlns="">0G1ZcHY_8rUCF4sL41CiW6A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

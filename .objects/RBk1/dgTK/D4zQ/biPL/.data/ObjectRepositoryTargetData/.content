@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SaHbaT0dI0muMlP3GqI_vg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/Login" CVScreenId="b003654f-291d-49c8-8e2e-0b4e4552e8af" CvElementArea="828, 580, 500, 36" CvType="InputBox" DesignTimeRectangle="835, 581, 492, 34" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='UserName' tag='INPUT' type='text' class='form-control' placeholder='Ingrese Usuario' aaname='Usuario' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="d846342e-38f3-4bee-9be4-1dc19bce1b51" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Portal de Servicios en Línea del Poder Judicial de la Federación - Consejo de la Judicatura Federal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b003654f-291d-49c8-8e2e-0b4e4552e8af" CvTextArea="713, 591, 54, 13" CvTextArgument="Usuario" CvType="Text" DesignTimeRectangle="594, 581, 187, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='loginForm' tag='LABEL' type='' class='col-sm-3 control-label' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Usuario &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Usuario' /&gt;" Guid="e8114bbb-3624-4883-a1ff-a48e82bf6ab5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fee539b15e9633ceb9c857f69a414963.png" xmlns="">0qprMT41TcUCFD9E0VwaXnQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

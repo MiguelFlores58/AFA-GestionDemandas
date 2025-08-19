@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Segundo apellido",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "jYJ8FM65gEuo3l6xUKU1AQ",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/jYJ8FM65gEuo3l6xUKU1AQ",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "Created": "2025-08-01T15:04:46.5235342Z",
+  "Updated": "2025-08-01T15:04:46.5235342Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT dsEmail4",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "KOhOP3ktDE-hR8a-WSNpxg",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/KOhOP3ktDE-hR8a-WSNpxg",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "Created": "2025-08-01T16:01:27.7870017Z",
+  "Updated": "2025-08-01T16:01:27.7870017Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

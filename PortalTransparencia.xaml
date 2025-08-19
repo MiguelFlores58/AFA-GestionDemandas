@@ -1,0 +1,620 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="PortalTransparencia" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="PortalTransparencia_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/word" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Semantic.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.Word</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.Word.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.DocumentUnderstanding.ML.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="PortalTransparencia" sap:VirtualizedContainerService.HintSize="1378,7576" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="vSolicitudInformacion" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Principal Portal de Transparencia" sap:VirtualizedContainerService.HintSize="586,7553" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence DisplayName="Login Portal" sap:VirtualizedContainerService.HintSize="552,7470" sap2010:WorkflowViewState.IdRef="Sequence_3">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome Plataforma Nacional de Transparencia" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="554,8624" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V2">
+          <uix:NApplicationCard.Body>
+            <ActivityAction x:TypeArguments="x:Object">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,8406" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <Sequence.Variables>
+                  <Variable x:TypeArguments="x:Boolean" Name="vAviso" />
+                </Sequence.Variables>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Sequence DisplayName="Obtengo Preguntas para Transparencia" sap:VirtualizedContainerService.HintSize="486,507" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="vWordFile" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Assign sap:VirtualizedContainerService.HintSize="452,115" sap2010:WorkflowViewState.IdRef="Assign_1">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[vWordFile]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">C:\AFA\SOLICITUD DE INFORMACION.docx</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <p:WordApplicationScope SensitivityLabel="{x:Null}" DisplayName="Word Application Scope" FilePath="[vWordFile]" sap:VirtualizedContainerService.HintSize="452,298" sap2010:WorkflowViewState.IdRef="WordApplicationScope_1" SensitivityOperation="None">
+                    <p:WordApplicationScope.Body>
+                      <ActivityAction x:TypeArguments="ui:WordDocument">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="ui:WordDocument" Name="WordDocumentScope" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,174" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <p:WordReadText DisplayName="Read Text" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="WordReadText_1" Text="[vSolicitudInformacion]" />
+                        </Sequence>
+                      </ActivityAction>
+                    </p:WordApplicationScope.Body>
+                  </p:WordApplicationScope>
+                </Sequence>
+                <Sequence DisplayName="Revisa si hay un aviso" sap:VirtualizedContainerService.HintSize="486,907" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="452,123" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                  <uix:NCheckElement DelayBefore="0" DisplayName="Revisa si hay avisos" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,190" sap2010:WorkflowViewState.IdRef="NCheckElement_1" Result="[vAviso]" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                    <uix:NCheckElement.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/Inicio" CVScreenId="19e9d8a7-7f13-42f2-9724-1993557000a2" ContentHash="x0So63r5sEO0foUYDbthng" CvElementArea="1548, 330, 23, 23" CvTextArea="361, 336, 49, 15" CvTextArgument="Avisos" CvType="CloseButton" DesignTimeRectangle="344, 311, 1248, 65" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;app-skeleton&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-home&amp;gt;p-dialog&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' tag='DIV' /&gt;" Guid="add19344-6c56-4cdf-a4aa-f6345f0e904a" InformativeScreenshot="c3b31389e15cba85c509d5cb5de59e00.png" Reference="uT86UzNhlUel-TR6kBwA5A/W2euCKzmkUaRuCfU7_AAIQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="19e9d8a7-7f13-42f2-9724-1993557000a2" CvElementArea="361, 387, 190, 53" CvTextArea="381, 407, 151, 13" CvTextArgument="Cambios en la Plataforma" CvType="Button" DesignTimeRectangle="382, 408, 149, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Cambios en la Plataforma' tag='SPAN' type='' class='p-tabview-title ng-star-inserted' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Cambios en la Plataforma' /&gt;" Guid="95044bf6-9392-49f1-8517-60ed75c1babe" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NCheckElement.Target>
+                  </uix:NCheckElement>
+                  <If Condition="[vAviso]" DisplayName="SI hay un aviso" sap:VirtualizedContainerService.HintSize="452,500" sap2010:WorkflowViewState.IdRef="If_1">
+                    <If.Then>
+                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,278" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Aceptar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/Inicio" CVScreenId="19e9d8a7-7f13-42f2-9724-1993557000a2" ContentHash="jBafDMYxfEaQqzbrFcXEZw" CvElementArea="1493, 806, 75, 42" CvTextArea="1507, 822, 47, 15" CvTextArgument="Aceptar" CvType="Button" DesignTimeRectangle="1495, 808, 71, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Aceptar' tag='BUTTON' type='button' class='p-ripple p-element p-button p-component' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Aceptar' /&gt;" Guid="43889221-0b2f-4e7e-a89a-7eaf62ba8003" InformativeScreenshot="b7b0fe7674c9bf7a0f9c3c760475332f.png" Reference="uT86UzNhlUel-TR6kBwA5A/jpCtq1N6uEOYHZkqSePdSQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="19e9d8a7-7f13-42f2-9724-1993557000a2" CvElementArea="1493, 806, 75, 42" CvTextArea="1507, 822, 47, 15" CvTextArgument="Aceptar" CvType="Button" DesignTimeRectangle="1509, 819, 44, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Aceptar' tag='SPAN' type='' class='p-button-label ng-star-inserted' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Aceptar' /&gt;" Guid="ecb051a4-0c70-42ba-9e96-568e8073178f" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                      </Sequence>
+                    </If.Then>
+                    <If.Else>
+                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Sequence>
+                    </If.Else>
+                  </If>
+                </Sequence>
+                <Sequence DisplayName="Login Portal Transparencia" sap:VirtualizedContainerService.HintSize="486,6930" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Delay Duration="00:00:04" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Iniciar sesión'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/Inicio" CVScreenId="67ea379f-8b00-4dc0-9957-d241be81cb2c" ContentHash="iDkhWaz2CUiEbtnF-UB-Zg" CvElementArea="1717, 149, 166, 42" CvTextArea="1750, 160, 99, 16" CvTextArgument="Iniciar sesión" CvType="Button" DesignTimeRectangle="1719, 151, 162, 38" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Iniciar sesión' tag='A' /&gt;" Guid="d7aec013-48a4-4786-bde3-ec1b229d0f22" InformativeScreenshot="ed436477b07c92cc6fbad5ffc57dc4a7.png" Reference="uT86UzNhlUel-TR6kBwA5A/FhsIJ-1Se0yt0w7Q7nNTvg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Ingresa correo electronico" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,251" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="ssanchez@afalaguna.com" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/auth/login" CVScreenId="14c0a85d-37eb-4485-87b7-82ebb4648a67" ContentHash="uTCVHem_LEmUYhjDFFjcXg" CvElementArea="996, 354, 508, 40" CvType="InputBox" DesignTimeRectangle="997, 356, 507, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='inputTextEmail' tag='INPUT' type='email' class='p-inputtext p-component p-element w-full ng-untouched ng-pristine ng-invalid' aaname='Correo electrónico' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="3989aa85-7969-4fc9-9785-cbd3d1057e35" InformativeScreenshot="ac2b92c2d041231adbc82d8debc4d6d1.png" Reference="uT86UzNhlUel-TR6kBwA5A/4jEAwO3IbUGLWkWj41YuMw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="14c0a85d-37eb-4485-87b7-82ebb4648a67" CvElementArea="996, 354, 508, 40" CvType="InputBox" DesignTimeRectangle="1007, 368, 110, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Correo electrónico' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Correo electrónico' /&gt;" Guid="e07e280a-783d-42cd-bbf1-3310ae7828ad" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,251" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="Sanchez24*" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/auth/login" CVScreenId="d59b9141-d157-4070-b048-7d34bb1c6ba5" ContentHash="d6RjffRrz0OTiHYX6T19GA" CvElementArea="997, 430, 510, 41" CvType="InputBox" DesignTimeRectangle="998, 432, 507, 38" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" Guid="b9ef68b5-7d56-4737-b14f-fc512c40f204" InformativeScreenshot="9dad6891e6508ab4ad5332eab1f59108.png" Reference="uT86UzNhlUel-TR6kBwA5A/gwoYlCX1fEuf8OxUY5q92g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <Delay Duration="00:00:04" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'Iniciar sesión(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/auth/login" CVScreenId="d59b9141-d157-4070-b048-7d34bb1c6ba5" ContentHash="-OWRkjACZEqgx3IkOAW5dw" CvElementArea="1261, 693, 245, 47" CvTextArea="1346, 710, 75, 13" CvTextArgument="Iniciar sesión" CvType="Button" DesignTimeRectangle="1263, 694, 241, 44" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='p-element p-ripple w-full py-3 p-button p-component' aaname='Iniciar sesión' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Iniciar sesión' /&gt;" Guid="85e7c94e-cbe8-4bf3-a387-d6c517a94a72" InformativeScreenshot="e1e83f8a7e2886b8220ca973992f39cc.png" Reference="uT86UzNhlUel-TR6kBwA5A/Jbg_xbRUqEKttzRzs7H00Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="d59b9141-d157-4070-b048-7d34bb1c6ba5" CvElementArea="1261, 693, 245, 47" CvTextArea="1346, 710, 75, 13" CvTextArgument="Iniciar sesión" CvType="Button" DesignTimeRectangle="1277, 708, 214, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Iniciar sesión' class='p-button-label' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Iniciar sesión' /&gt;" Guid="577c6643-779d-4fac-b5e9-590cd7d263dd" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="5" DisplayName="Click 'Realiza una Solicitud d…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/dashboard-solicitante" ContentHash="Yo2Bp6YPLE-aY-8QwlAejQ" DesignTimeRectangle="544, 355, 446, 229" Guid="d3295335-64eb-47e7-bd50-505aa6890ffa" ImageBase64="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" InformativeScreenshot="eb1707da7ede6538dc8c4e323206bdcd.png" Reference="uT86UzNhlUel-TR6kBwA5A/YknM0BEndEuN2pY1DUtchQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click - Boton Cerrar" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="e7c00734-3341-45bf-b357-7bc65a08d62d" ContentHash="IYUHCPjq9UKgZLtG-6G8SA" CvElementArea="1355, 403, 25, 24" CvType="CloseButton" DesignTimeRectangle="1355, 403, 26, 26" ElementType="Button" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;p-dynamicdialog&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button' tag='BUTTON' type='button' /&gt;" Guid="543a7c8e-4825-422b-acb0-a24a64dfe551" InformativeScreenshot="c600e3c1358b02c2b7621600ea6f21b9.png" Reference="uT86UzNhlUel-TR6kBwA5A/g9kqHKvit0q8HEEEtDOi0A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="574, 481, 788, 122" FuzzySelectorArgument="&lt;webctrl type='' tag='DIV' class='flex flex-column align-items-center my-4 p-3' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Información Importante' /&gt;" Guid="7bbd6d39-8e5d-4a62-a78a-c8d60e0a91dd" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="1" DisplayName="Type Into 'Nombre(s) o pseudónimo'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,251" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="Miguel Angel" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="8b32bc3f-5b0c-45b5-99c0-9d45799362b8" ContentHash="EZXk-7OIlEeGrJrT_kItrA" CvElementArea="510, 395, 386, 41" CvType="InputBox" DesignTimeRectangle="512, 397, 384, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='dsNombreFisica' tag='INPUT' type='text' class='p-inputtext p-component p-element ng-untouched ng-pristine ng-valid' placeholder='Nombre(s) o pseudónimo' aaname='Nombre(s) o pseudónimo' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="fd937d08-6ec0-4da8-8e5e-054a541f11f9" InformativeScreenshot="006baa757d023ec985aaf29104b8dbbc.png" Reference="uT86UzNhlUel-TR6kBwA5A/7d1hnkKM50-mufHD-Gz07w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="8b32bc3f-5b0c-45b5-99c0-9d45799362b8" CvElementArea="510, 395, 386, 41" CvType="InputBox" DesignTimeRectangle="521, 409, 153, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Nombre(s) o pseudónimo' tag='LABEL' type='' class='font-medium text-900' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Nombre(s) o pseudónimo' /&gt;" Guid="16edb2de-5ec2-422d-9f7b-18c2d68ee78f" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Primer apellido'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,251" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="Flores" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="8b32bc3f-5b0c-45b5-99c0-9d45799362b8" ContentHash="sJVoUEUVgUmls1HGYq2qqQ" CvElementArea="920, 395, 386, 41" CvType="InputBox" DesignTimeRectangle="922, 397, 384, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='dsAppFisica' tag='INPUT' type='text' class='p-inputtext p-component p-element ng-untouched ng-pristine ng-valid' placeholder='Primer apellido' aaname='Primer apellido' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="924061d0-3a33-4409-9ae6-b312c5fa9f83" InformativeScreenshot="b0d6c1548188e835d31d98346006037e.png" Reference="uT86UzNhlUel-TR6kBwA5A/eDQ2Eo0gqE2tz02kh9Lk3w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="8b32bc3f-5b0c-45b5-99c0-9d45799362b8" CvElementArea="920, 395, 386, 41" CvType="InputBox" DesignTimeRectangle="931, 409, 91, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Primer apellido' tag='LABEL' type='' class='font-medium text-900' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Primer apellido' /&gt;" Guid="34432fd6-f78f-40af-b57e-c17ed3596d1a" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Segundo apellido'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,251" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="Treviño" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="8b32bc3f-5b0c-45b5-99c0-9d45799362b8" ContentHash="-xrW5l76nkqHHOHgYvgtOw" CvElementArea="1330, 396, 388, 40" CvType="InputBox" DesignTimeRectangle="1332, 397, 384, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='dsApmFisica' tag='INPUT' type='text' class='p-inputtext p-component p-element ng-untouched ng-pristine ng-valid' placeholder='Segundo apellido' aaname='Segundo apellido' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b167da52-7145-4dad-8ac9-6888b4b5305c" InformativeScreenshot="462320fd6fad8f029d856d7c56bd5c0e.png" Reference="uT86UzNhlUel-TR6kBwA5A/jYJ8FM65gEuo3l6xUKU1AQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="8b32bc3f-5b0c-45b5-99c0-9d45799362b8" CvElementArea="1330, 396, 388, 40" CvType="InputBox" DesignTimeRectangle="1341, 409, 103, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Segundo apellido' tag='LABEL' type='' class='font-medium text-900' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Segundo apellido' /&gt;" Guid="e326e29a-5fc6-4065-834c-2e1bea5a211a" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,255" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(down)][u(hk)]" Version="V5">
+                    <uix:NKeyboardShortcuts.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NKeyboardShortcuts.VerifyOptions>
+                  </uix:NKeyboardShortcuts>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(down)][u(hk)]" Version="V5">
+                    <uix:NKeyboardShortcuts.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NKeyboardShortcuts.VerifyOptions>
+                  </uix:NKeyboardShortcuts>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(tab)][u(hk)]" Version="V5">
+                    <uix:NKeyboardShortcuts.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NKeyboardShortcuts.VerifyOptions>
+                  </uix:NKeyboardShortcuts>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Institución *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,251" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="Finanzas" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="6b341471-a1e7-460f-b220-8e48d253eefd" ContentHash="crUbmWp4ekSSgZaoqBa5fw" CvTextArea="521, 787, 153, 13" CvTextArgument="CS - Secretaría de Finanzas" CvType="Text" DesignTimeRectangle="512, 774, 354, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='searchbox' tag='INPUT' type='text' class='ng-tns-c41-115 p-autocomplete-input p-inputtext p-component p-autocomplete-dd-input ng-star-inserted' placeholder='---Seleccionar---' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="367d5c30-2004-4850-aae0-240a3f9f6b0d" InformativeScreenshot="c0567701a3723cddd93b941272e8758f.png" IsResponsive="True" Reference="uT86UzNhlUel-TR6kBwA5A/5X71nNBf1EuXEa2pXPlPYA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="6b341471-a1e7-460f-b220-8e48d253eefd" CvTextArea="520, 757, 70, 12" CvTextArgument="Institución *" CvType="Text" DesignTimeRectangle="521, 758, 69, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='text-900' tag='LABEL' type='' aaname='Institución *' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Institución *' /&gt;" Guid="c08bdd46-cbb2-48fd-9646-7f093e981e5b" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V5">
+                    <uix:NKeyboardShortcuts.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NKeyboardShortcuts.VerifyOptions>
+                  </uix:NKeyboardShortcuts>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Agregar(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="f071b4f1-60cf-4730-a57d-9aaf9ce503cd" ContentHash="wxs6FqW37USGGyZhNAeAnA" CvElementArea="921, 356, 386, 41" CvTextArea="1089, 372, 49, 15" CvTextArgument="Agregar" CvType="Button" DesignTimeRectangle="922, 358, 384, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Agregar' tag='BUTTON' type='button' class='p-ripple p-element p-button p-component' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Agregar' /&gt;" Guid="ab053afb-e52d-41eb-83a5-75ad3c3f0779" InformativeScreenshot="3fbc11c148e0ff24e5abccee09b7b309.png" Reference="uT86UzNhlUel-TR6kBwA5A/2gS3C-b5tEymMRTVVtQL7Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="f071b4f1-60cf-4730-a57d-9aaf9ce503cd" CvElementArea="921, 356, 386, 41" CvTextArea="1089, 372, 49, 15" CvTextArgument="Agregar" CvType="Button" DesignTimeRectangle="936, 369, 356, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Agregar' tag='SPAN' type='' class='p-button-label ng-star-inserted' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Agregar' /&gt;" Guid="106195ce-d17a-423c-9179-4ae7039b455b" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,255" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_7" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][d(shift)][k(Tab)][u(shift)][u(hk)][d(hk)][d(shift)][k(Tab)][u(shift)][u(hk)][d(hk)][d(shift)][k(tab)][u(shift)][u(hk)]" Version="V5">
+                    <uix:NKeyboardShortcuts.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NKeyboardShortcuts.VerifyOptions>
+                  </uix:NKeyboardShortcuts>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Institución *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,251" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="instituto reg" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="6b1f242e-b0f3-495a-af2f-ca5259deee7e" ContentHash="DTCTxXm7IEeAasKvkkPq0w" CvTextArea="521, 787, 70, 16" CvTextArgument="instituto reg" CvType="Text" DesignTimeRectangle="512, 774, 354, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='searchbox' tag='INPUT' type='text' class='ng-tns-c41-115 p-autocomplete-input p-inputtext p-component p-autocomplete-dd-input ng-star-inserted' placeholder='---Seleccionar---' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="91e4b4f0-6a32-415b-a553-c7276bfc3e21" InformativeScreenshot="a164e33eed2846cbd4ff6d13404d97f3.png" IsResponsive="True" Reference="uT86UzNhlUel-TR6kBwA5A/3BiDtP-DS0qNqND5vuASNA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="6b1f242e-b0f3-495a-af2f-ca5259deee7e" CvTextArea="520, 757, 70, 12" CvTextArgument="Institución *" CvType="Text" DesignTimeRectangle="521, 758, 69, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='text-900' tag='LABEL' type='' aaname='Institución *' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Institución *' /&gt;" Guid="9ff6bb66-939a-4e9a-87f3-38230c1b406a" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V5">
+                    <uix:NKeyboardShortcuts.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NKeyboardShortcuts.VerifyOptions>
+                  </uix:NKeyboardShortcuts>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Agregar(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="f071b4f1-60cf-4730-a57d-9aaf9ce503cd" ContentHash="wxs6FqW37USGGyZhNAeAnA" CvElementArea="921, 356, 386, 41" CvTextArea="1089, 372, 49, 15" CvTextArgument="Agregar" CvType="Button" DesignTimeRectangle="922, 358, 384, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Agregar' tag='BUTTON' type='button' class='p-ripple p-element p-button p-component' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Agregar' /&gt;" Guid="ab053afb-e52d-41eb-83a5-75ad3c3f0779" InformativeScreenshot="3fbc11c148e0ff24e5abccee09b7b309.png" Reference="uT86UzNhlUel-TR6kBwA5A/2gS3C-b5tEymMRTVVtQL7Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="f071b4f1-60cf-4730-a57d-9aaf9ce503cd" CvElementArea="921, 356, 386, 41" CvTextArea="1089, 372, 49, 15" CvTextArgument="Agregar" CvType="Button" DesignTimeRectangle="936, 369, 356, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Agregar' tag='SPAN' type='' class='p-button-label ng-star-inserted' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Agregar' /&gt;" Guid="106195ce-d17a-423c-9179-4ae7039b455b" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_8" Shortcuts="[d(hk)][k(tab)][u(hk)]" Version="V5">
+                    <uix:NKeyboardShortcuts.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NKeyboardShortcuts.VerifyOptions>
+                  </uix:NKeyboardShortcuts>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Detalle de la solicitud…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,251" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="[vSolicitudInformacion]" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="d956ef9a-aee4-4464-b7ff-e0e5cbe27f90" ContentHash="os95Mjws7km4HEe1QL5e6g" CvElementArea="464, 588, 1211, 150" CvType="InputBox" DesignTimeRectangle="466, 590, 1205, 148" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='dsDetalleSolicitud' tag='TEXTAREA' type='' class='p-inputtextarea p-inputtext p-component p-element ng-pristine ng-invalid ng-touched' placeholder='Describe con claridad tu solicitud respecto de la información que deseas conocer' aaname='Detalle de la solicitud *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="75e310ff-f4f7-4070-ad27-db57b40dce33" InformativeScreenshot="04f651c3d6dae03f7cd93a6817dad37f.png" IsResponsive="True" Reference="uT86UzNhlUel-TR6kBwA5A/fZQqUxXT9UGCILpCsPdqJQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="d956ef9a-aee4-4464-b7ff-e0e5cbe27f90" CvTextArea="475, 572, 130, 13" CvTextArgument="Detalle de la solicitud *" CvType="Text" DesignTimeRectangle="476, 574, 129, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Detalle de la solicitud *' tag='LABEL' type='' class='font-medium text-900' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Detalle de la solicitud *' /&gt;" Guid="780439d7-40f3-4982-8e84-2065c3888791" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_9" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(tab)][u(hk)]" Version="V5">
+                    <uix:NKeyboardShortcuts.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NKeyboardShortcuts.VerifyOptions>
+                  </uix:NKeyboardShortcuts>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'Correo electrónico'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="535bae28-3abe-481d-a0ba-4bed04e6ff3f" ContentHash="5Hj4AXbx-EyMM4MjSZwkCg" CvElementArea="464, 708, 24, 24" CvType="RadioButton" DesignTimeRectangle="470, 714, 12, 12" FullSelectorArgument="&lt;webctrl class='p-radiobutton-icon' idx='4' tag='SPAN' /&gt;" Guid="c02598d8-81c5-41d3-a1b7-60b511f10d97" InformativeScreenshot="460495c2ac0205a57900f49b10db4ee5.png" Reference="uT86UzNhlUel-TR6kBwA5A/cD8EA3VzbEK2zkPxJfHlMg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="535bae28-3abe-481d-a0ba-4bed04e6ff3f" CvTextArea="495, 712, 112, 13" CvTextArgument="Correo electrónico" CvType="Text" DesignTimeRectangle="496, 713, 110, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Correo electrónico' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Correo electrónico' /&gt;" Guid="7777161f-9961-4717-b65d-11c406cff496" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="1" DisplayName="Escribe correo" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,251" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="ssanchez@afalaguna.com" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="336eb86d-03b9-43b3-a89e-2cb63a8fee76" ContentHash="wR8FnX1A8k-xYH8bW4JJng" CvElementArea="485, 741, 604, 41" CvType="InputBox" DesignTimeRectangle="485, 743, 603, 38" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='dsEmail4' tag='INPUT' /&gt;" Guid="966f06b0-33e1-497a-8e55-f847597f0fd2" InformativeScreenshot="ff198991e9dfd15833e2de18f8c6a6c5.png" Reference="uT86UzNhlUel-TR6kBwA5A/KOhOP3ktDE-hR8a-WSNpxg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Electrónico a través de…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="daae13f5-2340-4e86-b026-6467c00a9ee1" ContentHash="UT-cDed6Q0ud64Yw7_seww" CvElementArea="464, 921, 24, 24" CvType="RadioButton" DesignTimeRectangle="466, 923, 20, 20" FullSelectorArgument="&lt;webctrl class='p-radiobutton-box' idx='5' tag='DIV' /&gt;" Guid="e252124d-2271-4c36-b9b3-df1e0bef122a" InformativeScreenshot="9929af00a7bb87198322f7d9291adc99.png" Reference="uT86UzNhlUel-TR6kBwA5A/dJfQNvtnwki_Ass8BbNtJw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="daae13f5-2340-4e86-b026-6467c00a9ee1" CvTextArea="492, 926, 498, 13" CvTextArgument="Electrónico a través del Sistema de Solicitudes de Acceso a la Información de la PNT" CvType="Text" DesignTimeRectangle="493, 927, 496, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Electrónico a través del Sistema de Solicitudes de Acceso a la Información de la PNT' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Electrónico a través del Sistema de Solicitudes de Acceso a la Información de la PNT' /&gt;" Guid="7cebcad5-0ecf-42bd-875c-005de6a1c10f" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'He leído el Aviso de Pr…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="f0f672bf-ad57-40ba-850d-6c56f03ae18f" ContentHash="XnVBVGHLHke9_zeKcTF_dA" CvElementArea="464, 979, 23, 22" CvType="CheckBox" DesignTimeRectangle="466, 980, 20, 20" FullSelectorArgument="&lt;webctrl class='p-checkbox-box' css-selector='body&amp;gt;app-root&amp;gt;app-admin&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-acceso-informacion&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p-checkbox&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" Guid="a8614211-a76b-41e3-b8d1-44c7b2ab0ea6" InformativeScreenshot="ed36beaeb7ff5d03c6b0a5218c5ea5e7.png" Reference="uT86UzNhlUel-TR6kBwA5A/9YH023lhQUucJIHnn9A2oA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="f0f672bf-ad57-40ba-850d-6c56f03ae18f" CvTextArea="492, 984, 740, 12" CvTextArgument="He leído el Aviso de Privacidad y otorgo mi consentimiento para que los datos personales sean tratados conforme al mismo." CvType="Text" DesignTimeRectangle="493, 981, 738, 18" FuzzySelectorArgument="&lt;webctrl type='' tag='SPAN' class='ml-2 text-900' aaname=' He leído el  y otorgo mi consentimiento para que los datos personales sean tratados conforme al mismo. ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='He leído el Aviso de Privacidad y otorgo mi consentimiento para que los datos personales sean tratados conforme al mismo.' /&gt;" Guid="d0f6db02-103a-4421-b5ef-53e2d358e115" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_10" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(tab)][u(hk)]" Version="V5">
+                    <uix:NKeyboardShortcuts.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NKeyboardShortcuts.VerifyOptions>
+                  </uix:NKeyboardShortcuts>
+                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,116" sap2010:WorkflowViewState.IdRef="Delay_5" />
+                </Sequence>
+              </Sequence>
+            </ActivityAction>
+          </uix:NApplicationCard.Body>
+          <uix:NApplicationCard.TargetApp>
+            <uix:TargetApp Area="1912, -8, 1936, 1056" BrowserType="Chrome" ContentHash="CqHbaHJZ90SQlOjqVaeeVw" IconBase64="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" InformativeScreenshot="6679c5b08725b930fab2682c89dc4aa8.jpg" Reference="uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ" Selector="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" Url="https://www.plataformadetransparencia.org.mx/Inicio" Version="V2" />
+          </uix:NApplicationCard.TargetApp>
+        </uix:NApplicationCard>
+      </Sequence>
+    </Sequence>
+  </Sequence>
+</Activity>

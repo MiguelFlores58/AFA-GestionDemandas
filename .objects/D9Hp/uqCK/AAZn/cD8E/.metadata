@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Correo electrónico(1)",
+  "Type": "Element",
+  "Id": "cD8EA3VzbEK2zkPxJfHlMg",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/cD8EA3VzbEK2zkPxJfHlMg",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "Created": "2025-08-01T16:01:03.9526149Z",
+  "Updated": "2025-08-01T16:01:03.9526149Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

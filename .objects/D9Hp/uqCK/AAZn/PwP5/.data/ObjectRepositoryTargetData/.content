@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XDVPMriTTEy7NP7TcagTqg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="02901520-6c1c-4643-9570-4668223fd43b" CvElementArea="512, 357, 370, 38" CvType="InputBox" DesignTimeRectangle="512, 358, 354, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='searchbox' tag='INPUT' type='text' class='ng-tns-c41-115 p-autocomplete-input p-inputtext p-component p-autocomplete-dd-input ng-star-inserted' placeholder='---Seleccionar---' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c9615f74-22c9-4acf-856f-60be979d83c8" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="02901520-6c1c-4643-9570-4668223fd43b" CvTextArea="520, 341, 70, 12" CvTextArgument="Institución *" CvType="Text" DesignTimeRectangle="521, 342, 69, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='text-900' tag='LABEL' type='' aaname='Institución *' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Institución *' /&gt;" Guid="c35adbf1-2545-462a-902f-9153faf2f1e1" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c36b319caf9153efada26b20b22dff23.png" xmlns="">0UulZdJYMl06UuqepoHzlmw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

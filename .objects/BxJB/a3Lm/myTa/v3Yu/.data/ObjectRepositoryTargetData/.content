@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="G6sfWoBylUCAxN7UzD7PGg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Login.aspx" CVScreenId="2a407d63-b45d-4989-856f-8836b5254cf7" CvElementArea="1547, 338, 165, 30" CvType="InputBox" DesignTimeRectangle="1549, 340, 162, 27" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='text' tag='INPUT' class='' aaname='Nombre de usuario:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="db115eff-1849-41d8-85f9-bf9eb25be9f4" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SISE 156' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2a407d63-b45d-4989-856f-8836b5254cf7" CvTextArea="1431, 346, 106, 12" CvTextArgument="Nombre de usuario:" CvType="Text" DesignTimeRectangle="1432, 346, 105, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='LABEL' class='' aaname='Nombre de usuario:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Nombre de usuario:' /&gt;" Guid="f854a786-435c-4a27-89ad-b5d7f3fd832c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5c81be54ddad2f99e0001a82499e40f9.png" xmlns="">0DZM_gzRNyke-vd4Hgj0MkQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
