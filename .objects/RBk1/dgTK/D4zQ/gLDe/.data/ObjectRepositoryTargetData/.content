@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="d2govsKpUEmBVf-Jnr2BPg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="bab7d2be-39a7-49bf-97d6-295b69436595" CvElementArea="1289, 543, 42, 36" CvType="Icon" DesignTimeRectangle="1291, 545, 38, 31" FullSelectorArgument="&lt;webctrl id='tableOficialia' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='A' /&gt;" Guid="40dddb2b-7d17-491c-87aa-3ff942422496" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACoAAAAjCAYAAADizJiTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEnSURBVFhH7di9DoIwEAdwH83Z2RdwdfNVTEhc3Bmd2FxgJy6wExI2JkIi08lxFKuW8HWGNmmTf4KWkl/uSgc2VVWBCTETer894LS/wmF7XjVoQIts66A4cdxdlAvXCFpkbAfVoZLfQdMPVHWjDrFQ7lgodyyUO/xQJ4US5PGE2FHcNzGM0AiylqYeOfjKdePCBB1CijEfywL1E2JkXh+4Bno5XSaR8hlDWQ5t92QZBvVvhFLV3PBJsGbI/83bs8uhbaUIStXNPJwLIC6aqa6KAk/z07IcWoda/66U2ArNEK0Wp8FqrW8i9mZPW7sja+WXiSK1WoDlM7VIwVWuGxdGaBv9D/z/xkK5Y6HcsVDumAs15kuJMd+eBFaHyqJBRmI+oDrHEGgFL3AhLFn6/yccAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="25935a8759982e5d90eaf256fab12d0d.png" xmlns="">0TLTtxZwV6U-K-mdccbFYZw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

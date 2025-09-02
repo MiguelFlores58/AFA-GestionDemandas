@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NXs4meEwoU2tXS2k4tQYWQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="6bece7de-0c3f-4264-9f50-42eef7f0e79e" CvElementArea="1303, 543, 42, 36" CvType="Icon" DesignTimeRectangle="1305, 545, 38, 31" FullSelectorArgument="&lt;webctrl id='tableOficialia' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='A' /&gt;" Guid="86306cf0-6ad8-43d0-ac29-63cc4019295e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACoAAAAjCAYAAADizJiTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEoSURBVFhH7Zi9CoMwEID7aJ079wW6duurFIQu3R07uXXRXbroLoKbkwg6XXMx0dhG/OFEAzn4QI2Rj7vzhhzqugYTMFP0/frA7fyEy/G+KeiALqpbK4oL19NDu3EL0EWVbUX3kMlf0OlPVPfiHrCi1FhRaqwoNSuIBhAX0IsyDDTvzYNU1E+E2UBknn7fFMhExyRlLJWlEfXyxiKJBoUzL4KMX+Xg674xAoGo6MkiBZfdoyjPmpNCycWaUJ8t6VkCUZEpIcqzyzKLa25Y4QoLkUUpL9bnQCDKEKVvMyVbgYcstZwGm5W+QfamvqzdyNr2ZxJ0pZbC6kytIHb0+6ZAKtpgwMBfEytKjRWlxopSY66oMSclxpw9Sdk9ZBYdVEmkJ7pnDBGt4QtiDyxwZNMQsgAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6bece7de-0c3f-4264-9f50-42eef7f0e79e" CvTextArea="511, 547, 59, 13" CvTextArgument="192/2019" CvType="Text" DesignTimeRectangle="500, 535, 136, 58" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='tableOficialia' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl class='left' type='' tag='TD' aaname='192/2019' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='192/2019' /&gt;" Guid="2c6ae3ec-a55a-4afe-a421-f6617df4cd3c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2f58cb271e106876e93c5c858d7dcde6.png" xmlns="">06YAacBOCfkWv2Y000LZwYA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

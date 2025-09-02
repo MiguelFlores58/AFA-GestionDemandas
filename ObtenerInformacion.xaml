@@ -140,7 +140,7 @@
       <AssemblyReference>UiPath.Excel</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ObtenerInformacion" sap:VirtualizedContainerService.HintSize="1290,6226" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ObtenerInformacion" sap:VirtualizedContainerService.HintSize="1290,7010" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="strINE_Texto" />
       <Variable x:TypeArguments="scg:IEnumerable(sd:DataRow)" Name="vFilasFiltradas" />
@@ -151,7 +151,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Principal" sap:VirtualizedContainerService.HintSize="768,6203" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Principal" sap:VirtualizedContainerService.HintSize="768,6987" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="strCURP" />
         <Variable x:TypeArguments="x:String" Name="strClaveElector" />
@@ -1596,17 +1596,17 @@
           </ui:ForEachRow.Body>
         </ui:ForEachRow>
       </Sequence>
-      <Sequence DisplayName="Agregar al archivo de Excel- Hoja Coahuila" sap:VirtualizedContainerService.HintSize="734,57" sap2010:WorkflowViewState.IdRef="Sequence_73">
+      <Sequence DisplayName="Agregar al archivo de Excel- Hoja Coahuila" sap:VirtualizedContainerService.HintSize="734,841" sap2010:WorkflowViewState.IdRef="Sequence_73">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:String" Name="strRutaExcel" />
         </Sequence.Variables>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Assign sap:VirtualizedContainerService.HintSize="552,115" sap2010:WorkflowViewState.IdRef="Assign_25">
+        <Assign sap:VirtualizedContainerService.HintSize="470,115" sap2010:WorkflowViewState.IdRef="Assign_25">
           <Assign.To>
             <OutArgument x:TypeArguments="scg:IEnumerable(sd:DataRow)">[vFilasFiltradas]</OutArgument>
           </Assign.To>
@@ -1614,7 +1614,7 @@
             <InArgument x:TypeArguments="scg:IEnumerable(sd:DataRow)">[dtDatosDemandaSalida.AsEnumerable().Where(Function(row) row("entidad").ToString().Trim().Equals("Coahuila"))]</InArgument>
           </Assign.Value>
         </Assign>
-        <If Condition="[vFilasFiltradas.Any]" DisplayName="Valido si hay filas" sap:VirtualizedContainerService.HintSize="552,471" sap2010:WorkflowViewState.IdRef="If_21">
+        <If Condition="[vFilasFiltradas.Any]" DisplayName="Valido si hay filas" sap:VirtualizedContainerService.HintSize="470,471" sap2010:WorkflowViewState.IdRef="If_21">
           <If.Then>
             <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,166" sap2010:WorkflowViewState.IdRef="Sequence_74">
               <sap:WorkflowViewStateService.ViewState>
@@ -1650,7 +1650,7 @@
             </Sequence>
           </If.Else>
         </If>
-        <Assign sap:VirtualizedContainerService.HintSize="552,115" sap2010:WorkflowViewState.IdRef="Assign_28">
+        <Assign sap:VirtualizedContainerService.HintSize="470,115" sap2010:WorkflowViewState.IdRef="Assign_28">
           <Assign.To>
             <OutArgument x:TypeArguments="x:String">[strRutaExcel]</OutArgument>
           </Assign.To>
@@ -1658,7 +1658,7 @@
             <InArgument x:TypeArguments="x:String" xml:space="preserve">C:\AFA\0.1 Control Registrales  2024 final (defensa.fiscal@gmail.com).xlsx</InArgument>
           </Assign.Value>
         </Assign>
-        <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="552,637" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+        <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="470,48" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
           <ueab:ExcelProcessScopeX.Body>
             <ActivityAction x:TypeArguments="ui:IExcelProcess">
               <ActivityAction.Argument>
@@ -1690,6 +1690,12 @@
               </Sequence>
             </ActivityAction>
           </ueab:ExcelProcessScopeX.Body>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
         </ueab:ExcelProcessScopeX>
       </Sequence>
       <Sequence DisplayName="Agregar al archivo de Excel- Hoja Durango" sap:VirtualizedContainerService.HintSize="734,57" sap2010:WorkflowViewState.IdRef="Sequence_78">

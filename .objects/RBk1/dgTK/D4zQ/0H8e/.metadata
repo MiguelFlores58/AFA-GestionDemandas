@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Regresar",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "0H8eEAEfUUyAKS9qwhRgQQ",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/0H8eEAEfUUyAKS9qwhRgQQ",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/D4zQvCxKxkuG8tin4vHgKA",
+  "Created": "2025-09-02T15:40:09.0036392Z",
+  "Updated": "2025-09-02T15:40:09.0036392Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

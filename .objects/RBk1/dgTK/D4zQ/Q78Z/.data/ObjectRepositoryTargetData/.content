@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tui7PpiP80u831p7iQQQAA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="d779021b-c572-46f6-89b7-8c393e26f161" CvTextArea="1323, 692, 16, 15" CvTextArgument="©" CvType="Text" DesignTimeRectangle="1315, 687, 34, 30" FullSelectorArgument="&lt;webctrl id='ExpedientesAutorizadosResult2' tag='TABLE' /&gt;&lt;webctrl tableCol='10' tableRow='2' tag='A' /&gt;" Guid="fe62ddf8-479c-468d-bcc5-105501e07eba" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d779021b-c572-46f6-89b7-8c393e26f161" CvTextArea="478, 690, 71, 13" CvTextArgument="19/03/2024" CvType="Text" DesignTimeRectangle="449, 678, 129, 47" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='ExpedientesAutorizadosResult2' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' class='text-center' tag='TD' aaname=' 19/03/2024                              ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='19/03/2024' /&gt;" Guid="8f7b635d-ac26-4c96-bc29-aaef8dc876a9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b7a729e0b54e71e32890bb1c3ee0c847.png" xmlns="">0fMLmkIYPg0Gj6BUm7VhiKg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

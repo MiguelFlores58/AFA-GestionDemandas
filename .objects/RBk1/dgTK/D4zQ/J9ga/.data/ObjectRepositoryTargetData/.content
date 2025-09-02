@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="E_NgLpip1UKT51il9c0nsg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="fc3923e0-b2cb-48c4-b79a-374707eaff7e" CvType="AnyWordGroup" DesignTimeRectangle="500, 535, 136, 58" ElementType="Text" FullSelectorArgument="&lt;webctrl id='tableOficialia' tag='TABLE' /&gt;&lt;webctrl class='left' tableRow='2' tag='TD' /&gt;" Guid="63bb4054-0bf9-4f31-998c-9dc2d407fa23" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fc3923e0-b2cb-48c4-b79a-374707eaff7e" CvTextArea="505, 517, 75, 16" CvTextArgument="expediente" CvType="Text" DesignTimeRectangle="505, 517, 75, 16" ElementType="Text" Guid="25ab7b5f-f2e6-49cc-9a90-e4d2a5664345" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b477e406e11ba143d5af544a174e191f.png" xmlns="">0WfBGQ3UVU0yDkQ1iv5SHAg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

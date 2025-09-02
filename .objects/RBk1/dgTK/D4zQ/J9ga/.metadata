@@ -1,0 +1,14 @@
+﻿{
+  "Name": "expediente",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "J9gaDEwXm0aDwcJ8VSA2Tg",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/J9gaDEwXm0aDwcJ8VSA2Tg",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/D4zQvCxKxkuG8tin4vHgKA",
+  "Created": "2025-09-01T23:16:43.6064545Z",
+  "Updated": "2025-09-01T23:16:43.6064545Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

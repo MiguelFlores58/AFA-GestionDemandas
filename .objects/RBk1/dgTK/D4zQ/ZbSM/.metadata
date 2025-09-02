@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Filtrar búsquedajesus",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "ZbSMbFhj1E6GdQyBfsfqOg",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/ZbSMbFhj1E6GdQyBfsfqOg",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/D4zQvCxKxkuG8tin4vHgKA",
+  "Created": "2025-09-01T23:37:41.6429556Z",
+  "Updated": "2025-09-01T23:37:41.6429556Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

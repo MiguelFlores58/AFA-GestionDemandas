@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fdLpQDLt7UyakTWACOEm7Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="a70438ec-bb2e-4065-abfb-b8f2e726da26" CvElementArea="1336, 506, 191, 33" CvType="InputBox" DesignTimeRectangle="1338, 508, 187, 30" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' class='form-control input-sm' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="46468de7-9195-4a9f-ba6d-a1d7f87c2d28" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a70438ec-bb2e-4065-abfb-b8f2e726da26" CvElementArea="1336, 506, 191, 33" CvTextArea="1193, 513, 138, 18" CvTextArgument="Filtrar búsqueda:" CvType="InputBox" DesignTimeRectangle="1194, 508, 331, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='tableOficialia_filter' tag='LABEL' type='' class='' aaname='Filtrar búsqueda:' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Filtrar búsqueda:' /&gt;" Guid="846be496-76b0-44e0-bef8-042aa261f9ca" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6dcb049b3f154a406350293d0f3b9c15.png" xmlns="">0epU3WSKcmEeYCnsKD9d32w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

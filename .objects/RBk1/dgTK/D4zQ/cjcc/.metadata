@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Guardar como",
+  "Type": "Element",
+  "Id": "cjccr4-gREGgoUbMKb599w",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/cjccr4-gREGgoUbMKb599w",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/D4zQvCxKxkuG8tin4vHgKA",
+  "Created": "2025-09-01T23:46:54.2397183Z",
+  "Updated": "2025-09-01T23:46:54.2397183Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
