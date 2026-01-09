@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Mouse Scroll 'Datos Del SolicitanteFí…'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ZtSohJlLC0qcWBZNRH_lpA",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/ZtSohJlLC0qcWBZNRH_lpA",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "Created": "2026-01-09T06:50:42.3189642Z",
+  "Updated": "2026-01-09T06:50:42.3189642Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

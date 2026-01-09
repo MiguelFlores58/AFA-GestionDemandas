@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Agregar(2)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "XO2yTqREsEycSCsnVWo-5w",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/XO2yTqREsEycSCsnVWo-5w",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "Created": "2026-01-09T06:48:23.0330445Z",
+  "Updated": "2026-01-09T06:48:23.0330445Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

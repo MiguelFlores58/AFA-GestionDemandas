@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Mouse Scroll 'Agregar(2)'",
+  "Type": "Element",
+  "Id": "vU0Glilq2ECL_Oa2qYac3A",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/vU0Glilq2ECL_Oa2qYac3A",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "Created": "2026-01-09T06:48:46.0788383Z",
+  "Updated": "2026-01-09T06:48:46.0788383Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
