@@ -1,0 +1,49 @@
+﻿{
+  "Metadata": {
+    "Id": "1d946a7a-49fb-4228-a103-29d262ccb116",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "Opciones",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "Select",
+        "widget": "choicesjs",
+        "tableView": true,
+        "data": {
+          "values": [
+            {
+              "label": "Seleccione una opcion",
+              "value": "seleccioneUnaOpcion"
+            },
+            {
+              "label": "Preparar informacion",
+              "value": "preparar"
+            },
+            {
+              "label": "Ingresar en Portal de Transparencia",
+              "value": "ingresar"
+            }
+          ]
+        },
+        "key": "select",
+        "type": "select",
+        "input": true
+      },
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      }
+    ]
+  }
+}

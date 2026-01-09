@@ -5,6 +5,7 @@
   "main": "Flowchart.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[3.1.1]",
+    "UiPath.Form.Activities": "[25.4.3]",
     "UiPath.IntelligentOCR.Activities": "[6.24.0]",
     "UiPath.OCR.Activities": "[3.22.0]",
     "UiPath.PDF.Activities": "[3.22.1]",
@@ -16,7 +17,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "25.0.167.0",
-  "projectVersion": "1.0.2",
+  "projectVersion": "1.0.3",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
