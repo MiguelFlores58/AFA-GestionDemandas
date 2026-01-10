@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="IVURbKocKEq8B3lQ_q5-3Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="2xZEUXjqyUKOXlB94X2TxA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" DesignTimeRectangle="491, 635, 1230, 44" FullSelectorArgument="&lt;webctrl class='col-12' css-selector='body&amp;gt;app-root&amp;gt;app-admin&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-acceso-informacion&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div' idx='6' tag='DIV' /&gt;" Guid="b1821777-2978-49c3-a4eb-bf1c2abb85b4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="f47de6a2a32ea0bbed93fc466e5637a1.png" xmlns="">0FeTVs3j0QkKYkNeKINH0-Q</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="43bc02dd-de03-4f83-8463-1e11cabf59f3" CvElementArea="511, 470, 1210, 151" CvType="InputBox" DesignTimeRectangle="499, 462, 1230, 194" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;app-admin&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-acceso-informacion&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div' idx='9' tag='DIV' /&gt;" Guid="9e9f2ff4-3d0e-4fde-8f44-9c24ba2fc43a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="499, 417, 1230, 45" FuzzySelectorArgument="&lt;webctrl class='col-12' type='' aaname='' tag='DIV' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Solicitud de información' /&gt;" Guid="b8fae1e3-3c6b-4fbd-90b9-30c8936e8827" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a9a33740800b54e6a31fe13f3b2df836.png" xmlns="">06IBMW_HXFEmV-khFr1FdOg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
   </ObjectRepositoryTargetData.Data>

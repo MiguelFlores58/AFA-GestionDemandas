@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JTx_zEJE10qQW7-vq8bSVA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="12c47658-7d2d-4562-bf15-5ffb0c374bed" CvElementArea="512, 371, 1205, 151" CvTextArea="510, 530, 119, 13" CvTextArgument="(Hasta 4000 caracteres)" CvType="InputBox" DesignTimeRectangle="499, 362, 1230, 194" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;app-admin&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-acceso-informacion&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div' idx='9' tag='DIV' /&gt;" Guid="22d7561a-1662-480e-9627-12ac6981cd09" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="efcb1209c1976a6e219835587fb3b883.png" xmlns="">0OKq6bxcYckqLvyPdoKlYjw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

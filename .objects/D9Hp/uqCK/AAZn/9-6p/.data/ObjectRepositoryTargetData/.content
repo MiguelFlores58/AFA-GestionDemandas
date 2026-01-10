@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JOHuiaOklkCayRyr8b25CQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="4d5e02d7-63e9-45fc-8ba8-f5b0df3adc0c" CvElementArea="971, 833, 286, 41" CvTextArea="1096, 847, 36, 13" CvTextArgument="Enviar" CvType="Button" DesignTimeRectangle="973, 835, 282, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Enviar' tag='BUTTON' type='button' class='p-element p-button p-component' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Enviar' /&gt;" Guid="2d008c6a-1d5a-456e-ab16-a22ac84ad4c3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4d5e02d7-63e9-45fc-8ba8-f5b0df3adc0c" CvElementArea="971, 833, 286, 41" CvTextArea="1096, 847, 36, 13" CvTextArgument="Enviar" CvType="Button" DesignTimeRectangle="987, 845, 254, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Enviar' class='p-button-label' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Enviar' /&gt;" Guid="b62bab0b-f6de-4061-bbfe-36ca4fe85345" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ec386e7db7042f0e934b6f8ae9b4d27f.png" xmlns="">0xe_6VelmikadBWc6HIRgKQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

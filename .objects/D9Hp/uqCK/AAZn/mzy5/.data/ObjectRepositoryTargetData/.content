@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HhPxXAKLbkqb47tBkynDTw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="3169d475-9ca1-4406-9dc8-925455e2554f" CvTextArea="511, 699, 198, 14" CvTextArgument="Instituciones seleccionadas" CvType="Text" DesignTimeRectangle="512, 697, 1204, 19" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Instituciones seleccionadas' tag='DIV' /&gt;" Guid="2a615519-72bf-456a-9ae8-2d2a2635bcc3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d7c964df228fd07d0f95869e2ded2151.png" xmlns="">0sBGjqG6T70Sl7vAgJCbeBw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

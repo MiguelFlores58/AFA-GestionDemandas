@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Información Importante …",
+  "Type": "Element",
+  "Id": "Vs7umGhBE0KMXGREoLBB2Q",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/Vs7umGhBE0KMXGREoLBB2Q",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "Created": "2026-01-10T16:20:02.049876Z",
+  "Updated": "2026-01-10T16:20:02.049876Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

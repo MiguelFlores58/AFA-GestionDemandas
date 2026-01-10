@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="asn8aC45REalMvfom1eZ2A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="34fc257c-2980-405a-ba0c-3d8092d9816f" CvTextArea="771, 474, 393, 15" CvTextArgument="Se han creado las siguientes solicitudes de información:" CvType="Text" DesignTimeRectangle="499, 460, 938, 57" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;p-dynamicdialog&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-solicitud-detail&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" Guid="21352bc9-e075-4de8-9111-8ca4d4185fb9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="34fc257c-2980-405a-ba0c-3d8092d9816f" CvTextArea="531, 539, 37, 12" CvTextArgument="Acuse" CvType="Text" DesignTimeRectangle="518, 536, 64, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='flex justify-content-around align-items-center' aaname=' Acuse ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Acuse' /&gt;" Guid="67f97fca-f843-41e4-b848-9126811480af" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b639584d831d87414bfd3cfc08be3910.png" xmlns="">0OPv_Qpukp0uDkVI9_SQRkg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vQYz7aDCRkCqGzHISKE-gw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" DesignTimeRectangle="536, 475, 864, 302" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;p-dynamicdialog&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' tag='DIV' /&gt;" Guid="4a6453aa-b741-4ce2-8306-e9dc61b413d6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="cccdb5d0ae75c3ec3f470efb2b5f4e0e.png" xmlns="">0pm9vYfXJ3Um4adQx1eLUGw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

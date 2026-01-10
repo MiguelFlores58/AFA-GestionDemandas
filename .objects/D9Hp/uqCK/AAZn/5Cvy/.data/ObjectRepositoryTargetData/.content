@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YTpvSCgz4EezYOKDHiamnw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/mi-historial" DesignTimeRectangle="572, 507, 784, 122" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;p-dynamicdialog&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-dialog-aviso&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" Guid="b7f1a63c-7e68-4f40-9007-f4f4515bb645" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="18ade7cea7f97569f81f9d5604cc671a.png" xmlns="">0_q8joxvp0EeqAe37uXkIow</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

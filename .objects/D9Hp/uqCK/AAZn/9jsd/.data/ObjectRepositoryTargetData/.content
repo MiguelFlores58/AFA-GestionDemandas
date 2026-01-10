@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IWf30_Axe0-7KxT92ASxeQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" DesignTimeRectangle="362, 229, 1504, 3353" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;app-admin&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-acceso-informacion&amp;gt;div' tag='DIV' /&gt;" Guid="3ae49fa3-195a-498e-8562-5a5f53928d73" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1f454a0dbef70476778c5d4bd292f0b8.png" xmlns="">0KJ808sf5Bkq2AB0YdsI_6A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScroll</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

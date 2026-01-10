@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Estimado usuario te re…(1)",
+  "Type": "Element",
+  "Id": "BYGdbUrZS06hYd9DOIY-Uw",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/BYGdbUrZS06hYd9DOIY-Uw",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "Created": "2026-01-10T15:33:07.6605967Z",
+  "Updated": "2026-01-10T15:33:07.6605967Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

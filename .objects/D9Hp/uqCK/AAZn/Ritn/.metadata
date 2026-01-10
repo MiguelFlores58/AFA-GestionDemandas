@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Acuse",
+  "Type": "Element",
+  "Id": "Ritns858KUm_zTW_DhDS9A",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/Ritns858KUm_zTW_DhDS9A",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "Created": "2026-01-10T16:27:01.2052258Z",
+  "Updated": "2026-01-10T16:27:01.2052258Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

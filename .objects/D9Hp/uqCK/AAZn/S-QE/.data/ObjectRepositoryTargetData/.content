@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jArFR6wsm0CnlWWvTvogpw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="fddc327e-b6bf-4fc3-9e82-badfae50549e" CvTextArea="938, 256, 350, 16" CvTextArgument="Solicitud de Acceso a la Información Pública" CvType="Text" DesignTimeRectangle="938, 256, 351, 16" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H5' /&gt;" Guid="1f3382a7-e4d7-44ab-b624-9aa3f11db44b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fddc327e-b6bf-4fc3-9e82-badfae50549e" CvTextArea="938, 256, 350, 16" CvTextArgument="Solicitud de Acceso a la Información Pública" CvType="Text" DesignTimeRectangle="389, 256, 1450, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H5' type='' class='font-bold _color-rosa' aaname=' Solicitud de Acceso a la Información Pública ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Solicitud de Acceso a la Información Pública' /&gt;" Guid="a76155f1-f053-4c5e-8480-819a0bd477dc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="718b0bc7d2477b4761b92c3500ea5c55.png" xmlns="">0yVG_yBygDUyh5fFv-PfXLw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

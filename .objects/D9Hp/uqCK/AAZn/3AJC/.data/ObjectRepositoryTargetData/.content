@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lO0grWmO0kuUx9GkSoGcTQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="91ad7033-11d4-42c6-929c-d48649840aae" CvTextArea="609, 178, 82, 16" CvTextArgument="Solicitudes" CvType="Text" DesignTimeRectangle="607, 170, 93, 36" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Solicitudes' tag='A' /&gt;" Guid="1667de7a-c110-4607-ae92-cb10da7137e8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8206dbfd3baf945cdb55ee3a1cdb9464.png" xmlns="">0-_PgpU9P6Uqj5NvAa2mtTg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

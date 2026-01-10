@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Mouse Scroll 'Solicitud de Acceso a l…'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "mzy5X5_Lk0SSc8OKKMiUtw",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/mzy5X5_Lk0SSc8OKKMiUtw",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "Created": "2026-01-10T16:01:28.9798403Z",
+  "Updated": "2026-01-10T16:01:28.9798403Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

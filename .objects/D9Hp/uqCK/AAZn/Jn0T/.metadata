@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Estimado usuario te re…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Jn0TMiWoH0-GivmocWFV6g",
+  "Reference": "uT86UzNhlUel-TR6kBwA5A/Jn0TMiWoH0-GivmocWFV6g",
+  "ParentRef": "uT86UzNhlUel-TR6kBwA5A/AAZnStpQvUeHZMtFznOYNQ",
+  "Created": "2026-01-10T15:32:38.0706816Z",
+  "Updated": "2026-01-10T15:32:38.0706816Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

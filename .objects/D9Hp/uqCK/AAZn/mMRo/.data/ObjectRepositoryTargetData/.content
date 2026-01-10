@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dhT8_ct9pk-KAVzzL3ep9A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/auth/login" CVScreenId="9bdfb437-be6a-4512-bebd-cbc0a40098c4" CvElementArea="1117, 631, 26, 26" CvType="CheckBox" DesignTimeRectangle="1117, 631, 26, 26" ElementType="CheckBox" Guid="9d5ac890-ae7a-479a-ace1-436d8396c558" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9bdfb437-be6a-4512-bebd-cbc0a40098c4" CvTextArea="1149, 628, 145, 16" CvTextArgument="Verifica que eres un ser" CvType="Text" DesignTimeRectangle="1149, 628, 145, 16" ElementType="Text" Guid="55aa9f77-93a3-4ba7-aef6-ea01c9f9c200" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="411540c18215cc1e1682e7674603e81c.png" xmlns="">0Et-LVme0T0mkjwH63gTlWw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Check</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

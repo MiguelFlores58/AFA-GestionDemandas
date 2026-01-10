@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sNWucNSqykOs4mDafi5rpw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/dashboard-solicitante" DesignTimeRectangle="362, 229, 1504, 797" FullSelectorArgument="&lt;ctrl name='Plataforma Nacional de Transparencia' role='document' /&gt;&lt;ctrl idx='3' role='grouping' /&gt;" Guid="4c21c5e9-22d6-44ff-8cdd-f3236624c4e9" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Plataforma Nacional de Transparencia - Google Chrome' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="414dae8e6a99c6e7ef4aa26bc6eed403.png" xmlns="">0R3LH4Av0k0CylqQyfjLhIg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

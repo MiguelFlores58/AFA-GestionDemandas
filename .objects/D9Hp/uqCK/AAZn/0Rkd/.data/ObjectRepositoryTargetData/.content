@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="b4s_EOLjP0qWjFpCDb4E2g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="34fc257c-2980-405a-ba0c-3d8092d9816f" CvElementArea="738, 688, 458, 41" CvTextArea="944, 704, 47, 15" CvTextArgument="Aceptar" CvType="Button" DesignTimeRectangle="740, 690, 456, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Aceptar' tag='BUTTON' type='button' class='p-ripple p-element p-button p-component' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Aceptar' /&gt;" Guid="d1279ef4-3eb8-452e-b402-133c221e4b2f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="34fc257c-2980-405a-ba0c-3d8092d9816f" CvElementArea="738, 688, 458, 41" CvTextArea="944, 704, 47, 15" CvTextArgument="Aceptar" CvType="Button" DesignTimeRectangle="753, 701, 430, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Aceptar' tag='SPAN' type='' class='p-button-label ng-star-inserted' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Aceptar' /&gt;" Guid="963d47cc-a164-4ff3-8244-e6002a0b1160" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a99978c2e7f5090d943d9303501e3f28.png" xmlns="">0K0MA3s45lU2YlWygBzcS3g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

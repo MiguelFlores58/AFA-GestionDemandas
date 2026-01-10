@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yeeqE3XOUUK_5XmiiE_Rwg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="plataformadetransparencia.org.mx/auth/login" CVScreenId="a3081779-094e-4833-b73c-afe74eb6df66" CvTextArea="1149, 628, 145, 16" CvTextArgument="Verifica que eres un ser" CvType="Text" DesignTimeRectangle="1149, 628, 145, 16" ElementType="Text" Guid="328e70aa-ddf9-4b7f-abee-5108568f05ab" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="42da2ab0b79e45b4308f39f078cf52b3.png" xmlns="">0jb8yj0uOk0-EQrkjkwQqTQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
