@@ -140,7 +140,7 @@
       <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="PortalTransparencia" sap:VirtualizedContainerService.HintSize="1270,13569" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="PortalTransparencia" sap:VirtualizedContainerService.HintSize="1139,650.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtDatosDemanda" />
     </Sequence.Variables>
@@ -149,7 +149,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Principal Portal de Transparencia" sap:VirtualizedContainerService.HintSize="1270,13546" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Principal Portal de Transparencia" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="strNombreCompleto" />
         <Variable x:TypeArguments="x:String" Name="strNombre" />
@@ -165,11 +165,12 @@
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:BuildDataTable DataTable="[dtDatosDemanda]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="1236,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Entidad&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Nombre&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
-      <Sequence DisplayName="Obtener Dispatcher" sap:VirtualizedContainerService.HintSize="1236,315" sap2010:WorkflowViewState.IdRef="Sequence_27">
+      <ui:BuildDataTable DataTable="[dtDatosDemanda]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="1220,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Entidad&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Nombre&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
+      <Sequence DisplayName="Obtener Dispatcher" sap:VirtualizedContainerService.HintSize="1220,315" sap2010:WorkflowViewState.IdRef="Sequence_27">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -268,19 +269,19 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
           </Assign.Value>
         </Assign>
       </Sequence>
-      <Sequence DisplayName="Login Portal" sap:VirtualizedContainerService.HintSize="1236,13056" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <Sequence DisplayName="Login Portal" sap:VirtualizedContainerService.HintSize="1220,12131" sap2010:WorkflowViewState.IdRef="Sequence_3">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome Plataforma Nacional de Transparencia" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1202,12973" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V2" WindowResize="Maximize">
+        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome Plataforma Nacional de Transparencia" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1186,12048" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V2" WindowResize="Maximize">
           <uix:NApplicationCard.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1168,12728" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1152,11763" sap2010:WorkflowViewState.IdRef="Sequence_4">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="x:Boolean" Name="vAviso" />
                 </Sequence.Variables>
@@ -289,7 +290,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Revisa si hay un aviso" sap:VirtualizedContainerService.HintSize="1134,477" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                <Sequence DisplayName="Revisa si hay un aviso" sap:VirtualizedContainerService.HintSize="1118,477" sap2010:WorkflowViewState.IdRef="Sequence_7">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -357,15 +358,15 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                     </If.Else>
                   </If>
                 </Sequence>
-                <Sequence DisplayName="Registrar en Portal Transparencia" sap:VirtualizedContainerService.HintSize="1134,12185" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                <Sequence DisplayName="Registrar en Portal Transparencia" sap:VirtualizedContainerService.HintSize="1118,11220" sap2010:WorkflowViewState.IdRef="Sequence_8">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="1100,127" sap2010:WorkflowViewState.IdRef="Delay_2" />
-                  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="1100,1678" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                  <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="1084,127" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="1084,1678" sap2010:WorkflowViewState.IdRef="Sequence_12">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -406,7 +407,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                             <uix:NCheck.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/auth/login" CVScreenId="9bdfb437-be6a-4512-bebd-cbc0a40098c4" ContentHash="dhT8_ct9pk-KAVzzL3ep9A" CvElementArea="1117, 631, 26, 26" CvType="CheckBox" DesignTimeRectangle="1117, 631, 26, 26" ElementType="CheckBox" Guid="9d5ac890-ae7a-479a-ace1-436d8396c558" InformativeScreenshot="411540c18215cc1e1682e7674603e81c.png" Reference="uT86UzNhlUel-TR6kBwA5A/mMRoQrsUO0uq1x2x1p4Akg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                     <uix:Target CVScreenId="9bdfb437-be6a-4512-bebd-cbc0a40098c4" CvTextArea="1149, 628, 145, 16" CvTextArgument="Verifica que eres un ser" CvType="Text" DesignTimeRectangle="1149, 628, 145, 16" ElementType="Text" Guid="55aa9f77-93a3-4ba7-aef6-ea01c9f9c200" SearchSteps="CV" TargetType="ComputerVisionBased" />
                                   </scg:List>
                                 </uix:TargetAnchorable.Anchors>
@@ -450,7 +451,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                       </uix:NClick.VerifyOptions>
                     </uix:NClick>
                   </Sequence>
-                  <uix:NCheckState DelayBefore="2" DisplayName="Check App State 'recycle bin icon'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1100,550" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Timeout="60" Version="V5">
+                  <uix:NCheckState DelayBefore="2" DisplayName="Check App State 'recycle bin icon'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1084,550" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Timeout="60" Version="V5">
                     <uix:NCheckState.IfExists>
                       <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,292" sap2010:WorkflowViewState.IdRef="Sequence_33">
                         <sap:WorkflowViewStateService.ViewState>
@@ -494,7 +495,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </uix:NCheckState>
-                  <p:CVScope ContinueOnError="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DelayBefore="3" DesignTimeCacheId="95c53e32-2747-404c-b938-38162eab936e" DisplayName="CV Screen Scope 'DIV'" sap:VirtualizedContainerService.HintSize="1100,832" sap2010:WorkflowViewState.IdRef="CVScope_1" SendOnPremData="False" Version="V6">
+                  <p:CVScope ContinueOnError="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DelayBefore="3" DesignTimeCacheId="95c53e32-2747-404c-b938-38162eab936e" DisplayName="CV Screen Scope 'DIV'" sap:VirtualizedContainerService.HintSize="1084,832" sap2010:WorkflowViewState.IdRef="CVScope_1" SendOnPremData="False" Version="V6">
                     <p:CVScope.Body>
                       <ActivityAction x:TypeArguments="x:Object">
                         <ActivityAction.Argument>
@@ -554,6 +555,9 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                         </Sequence>
                       </ActivityAction>
                     </p:CVScope.Body>
+                    <p:CVScope.DesignTimeCache>
+                      <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+                    </p:CVScope.DesignTimeCache>
                     <p:CVScope.DesignTimeCacheContainer>
                       <uc:CvCacheContainer>
                         <uc:CvCacheContainer.Caches>
@@ -851,19 +855,19 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </p:CVScope>
-                  <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtDatosDemanda]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1100,8903" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                  <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtDatosDemanda]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1084,7938" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                     <ui:ForEachRow.Body>
                       <ActivityAction x:TypeArguments="sd:DataRow">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1098,8724" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1082,7759" sap2010:WorkflowViewState.IdRef="Sequence_13">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <Sequence DisplayName="Obtengo Preguntas para Transparencia" sap:VirtualizedContainerService.HintSize="1064,61" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                          <Sequence DisplayName="Obtengo Preguntas para Transparencia" sap:VirtualizedContainerService.HintSize="1048,61" sap2010:WorkflowViewState.IdRef="Sequence_10">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="x:String" Name="vWordFile" />
                             </Sequence.Variables>
@@ -986,7 +990,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               </p2:WordApplicationScope.Body>
                             </p2:WordApplicationScope>
                           </Sequence>
-                          <Sequence DisplayName="Obtengo datos generales" sap:VirtualizedContainerService.HintSize="1064,551" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                          <Sequence DisplayName="Obtengo datos generales" sap:VirtualizedContainerService.HintSize="1048,551" sap2010:WorkflowViewState.IdRef="Sequence_18">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="s:String[]" Name="arrPartesNombre" />
                             </Sequence.Variables>
@@ -1173,7 +1177,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               </If.Else>
                             </If>
                           </Sequence>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="1" DisplayName="Type Into 'Nombre(s) o pseudónimo'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1064,259" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="[strNombre.ToString]" Version="V5">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="1" DisplayName="Type Into 'Nombre(s) o pseudónimo'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1048,259" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="[strNombre.ToString]" Version="V5">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="8b32bc3f-5b0c-45b5-99c0-9d45799362b8" ContentHash="EZXk-7OIlEeGrJrT_kItrA" CvElementArea="510, 395, 386, 41" CvType="InputBox" DesignTimeRectangle="512, 397, 384, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='dsNombreFisica' tag='INPUT' type='text' class='p-inputtext p-component p-element ng-untouched ng-pristine ng-valid' placeholder='Nombre(s) o pseudónimo' aaname='Nombre(s) o pseudónimo' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="fd937d08-6ec0-4da8-8e5e-054a541f11f9" InformativeScreenshot="006baa757d023ec985aaf29104b8dbbc.png" Reference="uT86UzNhlUel-TR6kBwA5A/7d1hnkKM50-mufHD-Gz07w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -1184,7 +1188,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               </uix:TargetAnchorable>
                             </uix:NTypeInto.Target>
                           </uix:NTypeInto>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Primer apellido'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1064,259" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="[strPaterno]" Version="V5">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Primer apellido'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1048,259" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="[strPaterno]" Version="V5">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="8b32bc3f-5b0c-45b5-99c0-9d45799362b8" ContentHash="sJVoUEUVgUmls1HGYq2qqQ" CvElementArea="920, 395, 386, 41" CvType="InputBox" DesignTimeRectangle="922, 397, 384, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='dsAppFisica' tag='INPUT' type='text' class='p-inputtext p-component p-element ng-untouched ng-pristine ng-valid' placeholder='Primer apellido' aaname='Primer apellido' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="924061d0-3a33-4409-9ae6-b312c5fa9f83" InformativeScreenshot="b0d6c1548188e835d31d98346006037e.png" Reference="uT86UzNhlUel-TR6kBwA5A/eDQ2Eo0gqE2tz02kh9Lk3w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -1195,7 +1199,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               </uix:TargetAnchorable>
                             </uix:NTypeInto.Target>
                           </uix:NTypeInto>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Segundo apellido'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1064,259" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="[strMaterno]" Version="V5">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Segundo apellido'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1048,259" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="[strMaterno]" Version="V5">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="8b32bc3f-5b0c-45b5-99c0-9d45799362b8" ContentHash="-xrW5l76nkqHHOHgYvgtOw" CvElementArea="1330, 396, 388, 40" CvType="InputBox" DesignTimeRectangle="1332, 397, 384, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='dsApmFisica' tag='INPUT' type='text' class='p-inputtext p-component p-element ng-untouched ng-pristine ng-valid' placeholder='Segundo apellido' aaname='Segundo apellido' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b167da52-7145-4dad-8ac9-6888b4b5305c" InformativeScreenshot="462320fd6fad8f029d856d7c56bd5c0e.png" Reference="uT86UzNhlUel-TR6kBwA5A/jYJ8FM65gEuo3l6xUKU1AQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -1206,7 +1210,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               </uix:TargetAnchorable>
                             </uix:NTypeInto.Target>
                           </uix:NTypeInto>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Institución *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1064,259" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="[strAutoridad]" Version="V5">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Institución *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1048,259" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="[strAutoridad]" Version="V5">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="6b341471-a1e7-460f-b220-8e48d253eefd" ContentHash="crUbmWp4ekSSgZaoqBa5fw" CvTextArea="521, 787, 153, 13" CvTextArgument="CS - Secretaría de Finanzas" CvType="Text" DesignTimeRectangle="512, 774, 354, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='searchbox' tag='INPUT' type='text' class='ng-tns-c41-115 p-autocomplete-input p-inputtext p-component p-autocomplete-dd-input ng-star-inserted' placeholder='---Seleccionar---' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="367d5c30-2004-4850-aae0-240a3f9f6b0d" InformativeScreenshot="c0567701a3723cddd93b941272e8758f.png" IsResponsive="True" Reference="uT86UzNhlUel-TR6kBwA5A/5X71nNBf1EuXEa2pXPlPYA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -1217,7 +1221,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               </uix:TargetAnchorable>
                             </uix:NTypeInto.Target>
                           </uix:NTypeInto>
-                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1064,259" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V5">
+                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1048,259" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V5">
                             <uix:NKeyboardShortcuts.VerifyOptions>
                               <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                                 <uix:VerifyExecutionOptions.Retry>
@@ -1229,7 +1233,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               </uix:VerifyExecutionOptions>
                             </uix:NKeyboardShortcuts.VerifyOptions>
                           </uix:NKeyboardShortcuts>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Agregar(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1064,233" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Agregar(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1048,233" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="f071b4f1-60cf-4730-a57d-9aaf9ce503cd" ContentHash="wxs6FqW37USGGyZhNAeAnA" CvElementArea="921, 356, 386, 41" CvTextArea="1089, 372, 49, 15" CvTextArgument="Agregar" CvType="Button" DesignTimeRectangle="922, 358, 384, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Agregar' tag='BUTTON' type='button' class='p-ripple p-element p-button p-component' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Agregar' /&gt;" Guid="ab053afb-e52d-41eb-83a5-75ad3c3f0779" InformativeScreenshot="3fbc11c148e0ff24e5abccee09b7b309.png" Reference="uT86UzNhlUel-TR6kBwA5A/2gS3C-b5tEymMRTVVtQL7Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -1250,7 +1254,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               </uix:VerifyExecutionOptions>
                             </uix:NClick.VerifyOptions>
                           </uix:NClick>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Institución *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1064,259" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="[strAutoridad2]" Version="V5">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Institución *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1048,259" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="[strAutoridad2]" Version="V5">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="6b1f242e-b0f3-495a-af2f-ca5259deee7e" ContentHash="DTCTxXm7IEeAasKvkkPq0w" CvTextArea="521, 787, 70, 16" CvTextArgument="instituto reg" CvType="Text" DesignTimeRectangle="512, 774, 354, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='searchbox' tag='INPUT' type='text' class='ng-tns-c41-115 p-autocomplete-input p-inputtext p-component p-autocomplete-dd-input ng-star-inserted' placeholder='---Seleccionar---' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="91e4b4f0-6a32-415b-a553-c7276bfc3e21" InformativeScreenshot="a164e33eed2846cbd4ff6d13404d97f3.png" IsResponsive="True" Reference="uT86UzNhlUel-TR6kBwA5A/3BiDtP-DS0qNqND5vuASNA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -1261,7 +1265,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               </uix:TargetAnchorable>
                             </uix:NTypeInto.Target>
                           </uix:NTypeInto>
-                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1064,259" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V5">
+                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1048,259" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V5">
                             <uix:NKeyboardShortcuts.VerifyOptions>
                               <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                                 <uix:VerifyExecutionOptions.Retry>
@@ -1273,7 +1277,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               </uix:VerifyExecutionOptions>
                             </uix:NKeyboardShortcuts.VerifyOptions>
                           </uix:NKeyboardShortcuts>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Agregar(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1064,233" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Agregar(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1048,233" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="f071b4f1-60cf-4730-a57d-9aaf9ce503cd" ContentHash="wxs6FqW37USGGyZhNAeAnA" CvElementArea="921, 356, 386, 41" CvTextArea="1089, 372, 49, 15" CvTextArgument="Agregar" CvType="Button" DesignTimeRectangle="922, 358, 384, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Agregar' tag='BUTTON' type='button' class='p-ripple p-element p-button p-component' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Agregar' /&gt;" Guid="ab053afb-e52d-41eb-83a5-75ad3c3f0779" InformativeScreenshot="3fbc11c148e0ff24e5abccee09b7b309.png" Reference="uT86UzNhlUel-TR6kBwA5A/2gS3C-b5tEymMRTVVtQL7Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -1294,7 +1298,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               </uix:VerifyExecutionOptions>
                             </uix:NClick.VerifyOptions>
                           </uix:NClick>
-                          <uix:NMouseScroll KeyModifiers="{x:Null}" DelayAfter="2" DelayBefore="2" Direction="Down" DisplayName="Mouse Scroll 'Agregar(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1064,295" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                          <uix:NMouseScroll KeyModifiers="{x:Null}" DelayAfter="2" DelayBefore="2" Direction="Down" DisplayName="Mouse Scroll 'Agregar(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1048,295" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
                             <uix:NMouseScroll.SearchedElement>
                               <uix:SearchedElement>
                                 <uix:SearchedElement.Target>
@@ -1315,7 +1319,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" ContentHash="mZx9IABwfkWr_H9f2YZtXA" DesignTimeRectangle="368, 31, 1476, 3247" ElementType="Container" FullSelectorArgument="&lt;webctrl tag='FORM' /&gt;" Guid="49112e6e-05df-43e4-898b-2c79c7551553" InformativeScreenshot="4cec6176f7f32a743995a21ad515b2b8.png" Reference="uT86UzNhlUel-TR6kBwA5A/XO2yTqREsEycSCsnVWo-5w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
                             </uix:NMouseScroll.Target>
                           </uix:NMouseScroll>
-                          <Assign sap:VirtualizedContainerService.HintSize="1064,179" sap2010:WorkflowViewState.IdRef="Assign_17">
+                          <Assign sap:VirtualizedContainerService.HintSize="1048,179" sap2010:WorkflowViewState.IdRef="Assign_17">
                             <Assign.To>
                               <OutArgument x:TypeArguments="x:String">[vSolicitudInformacion]</OutArgument>
                             </Assign.To>
@@ -1323,18 +1327,18 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               <InArgument x:TypeArguments="x:String">[If(vSolicitudInformacion.Length &gt; 4000, vSolicitudInformacion.Substring(0, 4000), vSolicitudInformacion)]</InArgument>
                             </Assign.Value>
                           </Assign>
-                          <uix:NCheckState DelayBefore="5" DisplayName="Check App State 'Detalle de la solicitud…(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1064,1804" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Timeout="60" Version="V5">
+                          <uix:NCheckState DelayBefore="5" DisplayName="Check App State 'Detalle de la solicitud…(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1048,1860" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Timeout="60" Version="V5">
                             <uix:NCheckState.IfExists>
-                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="544,1550" sap2010:WorkflowViewState.IdRef="Sequence_43">
+                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="544,1602" sap2010:WorkflowViewState.IdRef="Sequence_43">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="510,1490" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="3" RetryInterval="[New TimeSpan(0, 0, 3)]">
+                                <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="510,1536" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="3" RetryInterval="[New TimeSpan(0, 0, 3)]">
                                   <ui:RetryScope.ActivityBody>
                                     <ActivityAction>
-                                      <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="468,1290" sap2010:WorkflowViewState.IdRef="Sequence_45">
+                                      <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="468,1330" sap2010:WorkflowViewState.IdRef="Sequence_45">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1368,7 +1372,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                         </ui:CommentOut>
-                                        <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="6ef5e19f-e588-4548-89f8-76e3b8452ee9" DisplayName="CV Screen Scope 'FORM'" sap:VirtualizedContainerService.HintSize="434,1173" sap2010:WorkflowViewState.IdRef="CVScope_3" SendOnPremData="False" Version="V6">
+                                        <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="6ef5e19f-e588-4548-89f8-76e3b8452ee9" DisplayName="CV Screen Scope 'FORM'" sap:VirtualizedContainerService.HintSize="434,1213" sap2010:WorkflowViewState.IdRef="CVScope_3" SendOnPremData="False" Version="V6">
                                           <p:CVScope.Body>
                                             <ActivityAction x:TypeArguments="x:Object">
                                               <ActivityAction.Argument>
@@ -1376,7 +1380,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                                               </ActivityAction.Argument>
                                               <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_55">
                                                 <ui:SetToClipboard DisplayName="Set To Clipboard" sap:VirtualizedContainerService.HintSize="400,96" sap2010:WorkflowViewState.IdRef="SetToClipboard_1" Text="[vSolicitudInformacion]" />
-                                                <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: InputBox (134,423,1207,151)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Solicitud de información' (134,385,177,14)&quot;]" DesignTimeCacheId="6ef5e19f-e588-4548-89f8-76e3b8452ee9" DesignTimeScaleFactor="1" DisplayName="CV Click - 'Inputbox'" sap:VirtualizedContainerService.HintSize="400,223" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_4" InformativeScreenshot="a2134e2ef24f049f218a52033c7f4121" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                                                <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: InputBox (134,423,1207,151)&quot; +&#xA;&quot;Anchor: Text 'Solicitud de información' (134,385,177,14)&quot;]" DesignTimeCacheId="6ef5e19f-e588-4548-89f8-76e3b8452ee9" DesignTimeScaleFactor="1" DisplayName="CV Click - 'Inputbox'" sap:VirtualizedContainerService.HintSize="400,223" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_4" InformativeScreenshot="a2134e2ef24f049f218a52033c7f4121" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
                                                   <p:CvClickWithDescriptor.CursorPosition>
                                                     <ui:CursorPosition Position="Center">
                                                       <ui:CursorPosition.OffsetX>
@@ -1437,6 +1441,9 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                                               </Sequence>
                                             </ActivityAction>
                                           </p:CVScope.Body>
+                                          <p:CVScope.DesignTimeCache>
+                                            <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+                                          </p:CVScope.DesignTimeCache>
                                           <p:CVScope.DesignTimeCacheContainer>
                                             <uc:CvCacheContainer>
                                               <uc:CvCacheContainer.Caches>
@@ -1602,7 +1609,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="12c47658-7d2d-4562-bf15-5ffb0c374bed" ContentHash="JTx_zEJE10qQW7-vq8bSVA" CvElementArea="512, 371, 1205, 151" CvTextArea="510, 530, 119, 13" CvTextArgument="(Hasta 4000 caracteres)" CvType="InputBox" DesignTimeRectangle="499, 362, 1230, 194" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;app-admin&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-acceso-informacion&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div' idx='9' tag='DIV' /&gt;" Guid="22d7561a-1662-480e-9627-12ac6981cd09" InformativeScreenshot="efcb1209c1976a6e219835587fb3b883.png" Reference="uT86UzNhlUel-TR6kBwA5A/5xRBjQFgEUi8yaXvpfPC1Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
                             </uix:NCheckState.Target>
                           </uix:NCheckState>
-                          <uix:NMouseScroll KeyModifiers="{x:Null}" DelayBefore="1" Direction="Down" DisplayName="Mouse Scroll 'Datos Del SolicitanteFí…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1064,295" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                          <uix:NMouseScroll KeyModifiers="{x:Null}" DelayBefore="1" Direction="Down" DisplayName="Mouse Scroll 'Datos Del SolicitanteFí…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1048,295" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
                             <uix:NMouseScroll.SearchedElement>
                               <uix:SearchedElement>
                                 <uix:SearchedElement.Target>
@@ -1617,7 +1624,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" ContentHash="YUESxGPu8EagHjsmIuktpw" DesignTimeRectangle="368, -669, 1476, 3247" ElementType="Container" FullSelectorArgument="&lt;webctrl tag='FORM' /&gt;" Guid="4a80c7ab-c79d-464c-8da4-22f82724574e" InformativeScreenshot="be8cbd7be772e089eaecb1ef84101fcf.png" Reference="uT86UzNhlUel-TR6kBwA5A/gcl2EktFkUyby82__pmaOw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
                             </uix:NMouseScroll.Target>
                           </uix:NMouseScroll>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'Correo electrónico'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1064,194" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'Correo electrónico'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1048,194" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="535bae28-3abe-481d-a0ba-4bed04e6ff3f" ContentHash="5Hj4AXbx-EyMM4MjSZwkCg" CvElementArea="464, 708, 24, 24" CvType="RadioButton" DesignTimeRectangle="470, 714, 12, 12" FullSelectorArgument="&lt;webctrl class='p-radiobutton-icon' idx='4' tag='SPAN' /&gt;" Guid="c02598d8-81c5-41d3-a1b7-60b511f10d97" InformativeScreenshot="460495c2ac0205a57900f49b10db4ee5.png" Reference="uT86UzNhlUel-TR6kBwA5A/cD8EA3VzbEK2zkPxJfHlMg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -1628,12 +1635,12 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               </uix:TargetAnchorable>
                             </uix:NClick.Target>
                           </uix:NClick>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="1" DelayBefore="1" DisplayName="Escribe correo" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1064,259" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="ssanchez@afalaguna.com" Version="V5">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="1" DelayBefore="1" DisplayName="Escribe correo" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1048,259" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Text="ssanchez@afalaguna.com" Version="V5">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="336eb86d-03b9-43b3-a89e-2cb63a8fee76" ContentHash="wR8FnX1A8k-xYH8bW4JJng" CvElementArea="485, 741, 604, 41" CvType="InputBox" DesignTimeRectangle="485, 743, 603, 38" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='dsEmail4' tag='INPUT' /&gt;" Guid="966f06b0-33e1-497a-8e55-f847597f0fd2" InformativeScreenshot="ff198991e9dfd15833e2de18f8c6a6c5.png" Reference="uT86UzNhlUel-TR6kBwA5A/KOhOP3ktDE-hR8a-WSNpxg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
                             </uix:NTypeInto.Target>
                           </uix:NTypeInto>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Electrónico a través de…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1064,233" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Electrónico a través de…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1048,233" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="daae13f5-2340-4e86-b026-6467c00a9ee1" ContentHash="UT-cDed6Q0ud64Yw7_seww" CvElementArea="464, 921, 24, 24" CvType="RadioButton" DesignTimeRectangle="466, 923, 20, 20" FullSelectorArgument="&lt;webctrl class='p-radiobutton-box' idx='5' tag='DIV' /&gt;" Guid="e252124d-2271-4c36-b9b3-df1e0bef122a" InformativeScreenshot="9929af00a7bb87198322f7d9291adc99.png" Reference="uT86UzNhlUel-TR6kBwA5A/dJfQNvtnwki_Ass8BbNtJw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -1654,7 +1661,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               </uix:VerifyExecutionOptions>
                             </uix:NClick.VerifyOptions>
                           </uix:NClick>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'He leído el Aviso de Pr…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1064,233" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'He leído el Aviso de Pr…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1048,233" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="f0f672bf-ad57-40ba-850d-6c56f03ae18f" ContentHash="XnVBVGHLHke9_zeKcTF_dA" CvElementArea="464, 979, 23, 22" CvType="CheckBox" DesignTimeRectangle="466, 980, 20, 20" FullSelectorArgument="&lt;webctrl class='p-checkbox-box' css-selector='body&amp;gt;app-root&amp;gt;app-admin&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-acceso-informacion&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p-checkbox&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" Guid="a8614211-a76b-41e3-b8d1-44c7b2ab0ea6" InformativeScreenshot="ed36beaeb7ff5d03c6b0a5218c5ea5e7.png" Reference="uT86UzNhlUel-TR6kBwA5A/9YH023lhQUucJIHnn9A2oA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -1675,11 +1682,11 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               </uix:VerifyExecutionOptions>
                             </uix:NClick.VerifyOptions>
                           </uix:NClick>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Enviar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1064,233" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Enviar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1048,233" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="4d5e02d7-63e9-45fc-8ba8-f5b0df3adc0c" ContentHash="JOHuiaOklkCayRyr8b25CQ" CvElementArea="971, 833, 286, 41" CvTextArea="1096, 847, 36, 13" CvTextArgument="Enviar" CvType="Button" DesignTimeRectangle="973, 835, 282, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Enviar' tag='BUTTON' type='button' class='p-element p-button p-component' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Enviar' /&gt;" Guid="2d008c6a-1d5a-456e-ab16-a22ac84ad4c3" InformativeScreenshot="ec386e7db7042f0e934b6f8ae9b4d27f.png" Reference="uT86UzNhlUel-TR6kBwA5A/9-6p1vJxt0GIyRyuf3dX9Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                     <uix:Target CVScreenId="4d5e02d7-63e9-45fc-8ba8-f5b0df3adc0c" CvElementArea="971, 833, 286, 41" CvTextArea="1096, 847, 36, 13" CvTextArgument="Enviar" CvType="Button" DesignTimeRectangle="987, 845, 254, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Enviar' class='p-button-label' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Enviar' /&gt;" Guid="b62bab0b-f6de-4061-bbfe-36ca4fe85345" SearchSteps="FuzzySelector, CV" />
                                   </scg:List>
                                 </uix:TargetAnchorable.Anchors>
@@ -1696,7 +1703,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               </uix:VerifyExecutionOptions>
                             </uix:NClick.VerifyOptions>
                           </uix:NClick>
-                          <uix:NCheckState DisplayName="Check App State 'Acuse'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1064,550" sap2010:WorkflowViewState.IdRef="NCheckState_7" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                          <uix:NCheckState DisplayName="Check App State 'Acuse'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1048,550" sap2010:WorkflowViewState.IdRef="NCheckState_7" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
                             <uix:NCheckState.IfExists>
                               <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,292" sap2010:WorkflowViewState.IdRef="Sequence_50">
                                 <sap:WorkflowViewStateService.ViewState>
@@ -1708,7 +1715,7 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                                   <uix:NClick.Target>
                                     <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="34fc257c-2980-405a-ba0c-3d8092d9816f" ContentHash="b4s_EOLjP0qWjFpCDb4E2g" CvElementArea="738, 688, 458, 41" CvTextArea="944, 704, 47, 15" CvTextArgument="Aceptar" CvType="Button" DesignTimeRectangle="740, 690, 456, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Aceptar' tag='BUTTON' type='button' class='p-ripple p-element p-button p-component' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Aceptar' /&gt;" Guid="d1279ef4-3eb8-452e-b402-133c221e4b2f" InformativeScreenshot="a99978c2e7f5090d943d9303501e3f28.png" Reference="uT86UzNhlUel-TR6kBwA5A/0Rkd8ebEmUGzm_xcJS8oFw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                       <uix:TargetAnchorable.Anchors>
-                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                           <uix:Target CVScreenId="34fc257c-2980-405a-ba0c-3d8092d9816f" CvElementArea="738, 688, 458, 41" CvTextArea="944, 704, 47, 15" CvTextArgument="Aceptar" CvType="Button" DesignTimeRectangle="753, 701, 430, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Aceptar' tag='SPAN' type='' class='p-button-label ng-star-inserted' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Aceptar' /&gt;" Guid="963d47cc-a164-4ff3-8244-e6002a0b1160" SearchSteps="FuzzySelector, CV" />
                                         </scg:List>
                                       </uix:TargetAnchorable.Anchors>
@@ -1739,14 +1746,14 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                             <uix:NCheckState.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="34fc257c-2980-405a-ba0c-3d8092d9816f" ContentHash="asn8aC45REalMvfom1eZ2A" CvTextArea="771, 474, 393, 15" CvTextArgument="Se han creado las siguientes solicitudes de información:" CvType="Text" DesignTimeRectangle="499, 460, 938, 57" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;p-dynamicdialog&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-solicitud-detail&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" Guid="21352bc9-e075-4de8-9111-8ca4d4185fb9" InformativeScreenshot="b639584d831d87414bfd3cfc08be3910.png" Reference="uT86UzNhlUel-TR6kBwA5A/Ritns858KUm_zTW_DhDS9A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                     <uix:Target CVScreenId="34fc257c-2980-405a-ba0c-3d8092d9816f" CvTextArea="531, 539, 37, 12" CvTextArgument="Acuse" CvType="Text" DesignTimeRectangle="518, 536, 64, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='flex justify-content-around align-items-center' aaname=' Acuse ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Acuse' /&gt;" Guid="67f97fca-f843-41e4-b848-9126811480af" SearchSteps="FuzzySelector, CV" />
                                   </scg:List>
                                 </uix:TargetAnchorable.Anchors>
                               </uix:TargetAnchorable>
                             </uix:NCheckState.Target>
                           </uix:NCheckState>
-                          <uix:NCheckState DisplayName="Check App State 'Información Importante'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1064,1143" sap2010:WorkflowViewState.IdRef="NCheckState_8" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                          <uix:NCheckState DelayBefore="1" DisplayName="Check App State 'Información Importante'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1048,61" sap2010:WorkflowViewState.IdRef="NCheckState_8" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
                             <uix:NCheckState.IfExists>
                               <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="560,885" sap2010:WorkflowViewState.IdRef="Sequence_52">
                                 <sap:WorkflowViewStateService.ViewState>
@@ -1809,6 +1816,9 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                                       </Sequence>
                                     </ActivityAction>
                                   </p:CVScope.Body>
+                                  <p:CVScope.DesignTimeCache>
+                                    <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+                                  </p:CVScope.DesignTimeCache>
                                   <p:CVScope.DesignTimeCacheContainer>
                                     <uc:CvCacheContainer>
                                       <uc:CvCacheContainer.Caches>
@@ -2077,8 +2087,14 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                             <uix:NCheckState.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/mi-historial" ContentHash="YTpvSCgz4EezYOKDHiamnw" DesignTimeRectangle="572, 507, 784, 122" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;p-dynamicdialog&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-dialog-aviso&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" Guid="b7f1a63c-7e68-4f40-9007-f4f4515bb645" InformativeScreenshot="18ade7cea7f97569f81f9d5604cc671a.png" Reference="uT86UzNhlUel-TR6kBwA5A/5CvyVSM5Ckup_7p3gGMagw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
                             </uix:NCheckState.Target>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
                           </uix:NCheckState>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="3" DisplayName="Click 'Solicitudes'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1064,233" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="2" DisplayName="Click 'Solicitudes'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1048,233" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/informacion-publica" CVScreenId="91ad7033-11d4-42c6-929c-d48649840aae" ContentHash="lO0grWmO0kuUx9GkSoGcTQ" CvTextArea="609, 178, 82, 16" CvTextArgument="Solicitudes" CvType="Text" DesignTimeRectangle="607, 170, 93, 36" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Solicitudes' tag='A' /&gt;" Guid="1667de7a-c110-4607-ae92-cb10da7137e8" InformativeScreenshot="8206dbfd3baf945cdb55ee3a1cdb9464.png" Reference="uT86UzNhlUel-TR6kBwA5A/3AJCGaf14UWhP-_izvSYcg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
                             </uix:NClick.Target>
@@ -2093,7 +2109,348 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
                               </uix:VerifyExecutionOptions>
                             </uix:NClick.VerifyOptions>
                           </uix:NClick>
-                          <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="1064,118" sap2010:WorkflowViewState.IdRef="Delay_6" />
+                          <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="1048,127" sap2010:WorkflowViewState.IdRef="Delay_6" />
+                          <uix:NCheckState DelayBefore="1" DisplayName="Check App State 'Información Importante'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1048,52" sap2010:WorkflowViewState.IdRef="NCheckState_9" ScopeIdentifier="de841ee6-63e5-4c4b-b282-1c906b24f7e8" Version="V5">
+                            <uix:NCheckState.IfExists>
+                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="560,891" sap2010:WorkflowViewState.IdRef="Sequence_58">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="217be136-ffe9-4639-a031-5efdc9bcf797" DisplayName="CV Screen Scope 'DIV'" sap:VirtualizedContainerService.HintSize="526,825" sap2010:WorkflowViewState.IdRef="CVScope_4" SendOnPremData="False" Version="V6">
+                                  <p:CVScope.Body>
+                                    <ActivityAction x:TypeArguments="x:Object">
+                                      <ActivityAction.Argument>
+                                        <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
+                                      </ActivityAction.Argument>
+                                      <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_57">
+                                        <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="492,474" sap2010:WorkflowViewState.IdRef="RetryScope_4" NumberOfRetries="3" RetryInterval="[TimeSpan.FromSeconds(2)]">
+                                          <ui:RetryScope.ActivityBody>
+                                            <ActivityAction>
+                                              <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="450,270" sap2010:WorkflowViewState.IdRef="Sequence_56">
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                                <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: CloseButton (817,16,28,28)&quot;]" DesignTimeCacheId="fb275517-80f3-4e36-b48a-a51a4e204e24" DesignTimeScaleFactor="1" DisplayName="CV Click - 'CloseButton'" sap:VirtualizedContainerService.HintSize="416,210" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_5" InformativeScreenshot="02b87f93704747b9d023c438b27adc6b" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                                                  <p:CvClickWithDescriptor.CursorPosition>
+                                                    <ui:CursorPosition Position="Center">
+                                                      <ui:CursorPosition.OffsetX>
+                                                        <InArgument x:TypeArguments="x:Int32" />
+                                                      </ui:CursorPosition.OffsetX>
+                                                      <ui:CursorPosition.OffsetY>
+                                                        <InArgument x:TypeArguments="x:Int32" />
+                                                      </ui:CursorPosition.OffsetY>
+                                                    </ui:CursorPosition>
+                                                  </p:CvClickWithDescriptor.CursorPosition>
+                                                  <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                                                    <uc:CvDescriptor Id="aba7b44b-d35b-43d2-88b0-55785f3ddd06">
+                                                      <uc:CvDescriptor.Target>
+                                                        <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="817, 16, 28, 28" ElementType="CloseButton" />
+                                                      </uc:CvDescriptor.Target>
+                                                    </uc:CvDescriptor>
+                                                  </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                                                  <p:CvClickWithDescriptor.Target>
+                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="537a7336-8c42-4ef0-b2e1-d33f3bd63871">
+                                                      <ui:Target.TimeoutMS>
+                                                        <InArgument x:TypeArguments="x:Int32" />
+                                                      </ui:Target.TimeoutMS>
+                                                      <ui:Target.WaitForReady>
+                                                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                                                      </ui:Target.WaitForReady>
+                                                    </ui:Target>
+                                                  </p:CvClickWithDescriptor.Target>
+                                                </p:CvClickWithDescriptor>
+                                              </Sequence>
+                                            </ActivityAction>
+                                          </ui:RetryScope.ActivityBody>
+                                          <ui:RetryScope.Condition>
+                                            <ActivityFunc x:TypeArguments="x:Boolean" />
+                                          </ui:RetryScope.Condition>
+                                        </ui:RetryScope>
+                                      </Sequence>
+                                    </ActivityAction>
+                                  </p:CVScope.Body>
+                                  <p:CVScope.DesignTimeCache>
+                                    <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+                                  </p:CVScope.DesignTimeCache>
+                                  <p:CVScope.DesignTimeCacheContainer>
+                                    <uc:CvCacheContainer>
+                                      <uc:CvCacheContainer.Caches>
+                                        <scg:List x:TypeArguments="uc:CVCache" Capacity="2">
+                                          <uc:CVCache DataSent="False" DisplayName="Screen CV Click - CloseButton " Id="fb275517-80f3-4e36-b48a-a51a4e204e24" InformativeScreenshot="203230bc0e3a77d9fac5df48188312bd" LogicalPosition="1920, 139" OcrText="X" Position="1920, 139" ScreenshotGuid="41ff0483-0891-4a5a-995b-1f7d7755e151" ServerVersion="24.10.5.1">
+                                            <uc:CVCache.CvAnchorRelations>
+                                              <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="0" />
+                                            </uc:CVCache.CvAnchorRelations>
+                                            <uc:CVCache.CvUiElements>
+                                              <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="4">
+                                                <uc:CvElementInfo Category="CloseButton" Description="CloseButton" Region="817, 16, 28, 28" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="Icon" Confidence="Runtime" Region="816, 15, 29, 29" />
+                                                <uc:CvElementInfo Category="InputBox" Description="Inputbox" Region="0, 0, 864, 65" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="ArrowButton" Confidence="Runtime" Region="815, 12, 32, 34" />
+                                              </scg:List>
+                                            </uc:CVCache.CvUiElements>
+                                            <uc:CVCache.OcrTexts>
+                                              <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="1">
+                                                <uc:OcrTextInfo Region="824, 23, 15, 15" Text="X" />
+                                              </scg:List>
+                                            </uc:CVCache.OcrTexts>
+                                          </uc:CVCache>
+                                          <uc:CVCache DataSent="False" DisplayName="Main Screen" Id="217be136-ffe9-4639-a031-5efdc9bcf797" InformativeScreenshot="aaf84705e8052764e6d9b8bf7dd7b304" LogicalPosition="1920, 139" OcrText="PLATAFORMA NACIONAL DE S P A R E N c A Inicio Información Pública Solicitudes Quejas Datos Abiertos Estadísticas Cualquier otro medio incluido los electrónicos &lt; SA Solicitud para exentar pago por reproducción y/o envío por circunstancias socioeconómicas sandra.sanchezm En caso de considerar que no estás en posibilidades de cubrir los costos de reproducción y/o envío indica tus razones para que sean valoradas por la unidad de transparencia. Solicitudes de Información ^ X Registro de Solicitudes ^ Perfil (Has Información Pública ! ^ Datos Personales Información Importante Mi Historial Mis Quejas Estimado usuario: te recordamos que el contenido de esta solicitud será público. Si incluye datos personales, te recomendamos presentar una solicitud de datos personales, a través de la cual puedes ejercer tus derechos ARCO (acceso, rectificación, cancelación, oposición O portabilidad). Enviar Buscadores Temáticosv" Position="1920, 139" ScreenshotGuid="29ebde9e-f78c-4de5-afb5-418731f76657" ServerVersion="24.10.5.1">
+                                            <uc:CVCache.CvAnchorRelations>
+                                              <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="4">
+                                                <uc:AnchorRelationInfo IsTargetText="False" Target="15">
+                                                  <uc:AnchorRelationInfo.Anchors>
+                                                    <x:Array Type="x:Int32">
+                                                      <x:Int32>19</x:Int32>
+                                                      <x:Int32>20</x:Int32>
+                                                      <x:Int32>21</x:Int32>
+                                                      <x:Int32>22</x:Int32>
+                                                      <x:Int32>23</x:Int32>
+                                                      <x:Int32>24</x:Int32>
+                                                    </x:Array>
+                                                  </uc:AnchorRelationInfo.Anchors>
+                                                </uc:AnchorRelationInfo>
+                                                <uc:AnchorRelationInfo IsTargetText="True" Target="74">
+                                                  <uc:AnchorRelationInfo.Anchors>
+                                                    <x:Array Type="x:Int32">
+                                                      <x:Int32>68</x:Int32>
+                                                      <x:Int32>69</x:Int32>
+                                                      <x:Int32>70</x:Int32>
+                                                    </x:Array>
+                                                  </uc:AnchorRelationInfo.Anchors>
+                                                </uc:AnchorRelationInfo>
+                                              </scg:List>
+                                            </uc:CVCache.CvAnchorRelations>
+                                            <uc:CVCache.CvUiElements>
+                                              <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="64">
+                                                <uc:CvElementInfo Category="Button" Description="Button" Region="964, 683, 290, 46" />
+                                                <uc:CvElementInfo Category="Icon" Description="burger icon" Region="292, 27, 28, 25" />
+                                                <uc:CvElementInfo Category="Icon" Description="Icon" Region="166, 233, 19, 19" />
+                                                <uc:CvElementInfo Category="CloseButton" Description="CloseButton" Region="1348, 282, 23, 22" />
+                                                <uc:CvElementInfo Category="Icon" Description="Icon" Region="919, 370, 70, 70" />
+                                                <uc:CvElementInfo Category="Icon" Description="trash can icon" Region="140, 233, 19, 20" />
+                                                <uc:CvElementInfo Category="ArrowButton" Description="ArrowButton" Region="252, 290, 19, 17" />
+                                                <uc:CvElementInfo Category="CheckBox" Description="Checkbox" Region="505, 590, 22, 23" />
+                                                <uc:CvElementInfo Category="Icon" Description="Icon" Region="113, 233, 22, 21" />
+                                                <uc:CvElementInfo Category="Icon" Description="Icon" Region="1843, 24, 30, 28" />
+                                                <uc:CvElementInfo Category="Icon" Description="Icon" Region="33, 15, 68, 43" />
+                                                <uc:CvElementInfo Category="ArrowButton" Description="ArrowButton" Region="1208, 859, 21, 20" />
+                                                <uc:CvElementInfo Category="ArrowButton" Description="ArrowButton" Region="251, 94, 20, 22" />
+                                                <uc:CvElementInfo Category="Icon" Description="Icon" Region="1862, 410, 41, 41" />
+                                                <uc:CvElementInfo Category="ArrowButton" Description="ArrowButton" Region="252, 327, 18, 17" />
+                                                <uc:CvElementInfo Category="RadioButton" Description="Radiobutton" Region="505, 79, 25, 22" />
+                                                <uc:CvElementInfo Category="Icon" Description="Icon" Region="117, 125, 65, 63" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="Button" Confidence="Runtime" Region="118, 128, 63, 54" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="Icon" Confidence="Runtime" Region="239, 24, 23, 26" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="Icon" Confidence="Runtime" Region="505, 79, 25, 22" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="ArrowButton" Confidence="Runtime" Region="1861, 410, 42, 41" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="Button" Confidence="Runtime" Region="593, 24, 100, 36" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="InputBox" Confidence="Runtime" Region="1396, 409, 313, 56" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="InputBox" Confidence="Runtime" Region="1395, 494, 315, 58" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="Button" Confidence="Runtime" Region="1391, 490, 323, 63" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="CheckBox" Confidence="Runtime" Region="506, 79, 24, 21" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="ArrowButton" Confidence="Runtime" Region="1872, 422, 19, 15" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="Icon" Confidence="Runtime" Region="506, 590, 22, 22" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="InputBox" Confidence="Runtime" Region="523, 310, 879, 320" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="InputBox" Confidence="Runtime" Region="43, 388, 238, 38" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="Icon" Confidence="Runtime" Region="251, 94, 21, 24" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="Icon" Confidence="Runtime" Region="721, 31, 19, 21" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="Button" Confidence="Runtime" Region="1863, 410, 39, 39" />
+                                                <uc:CvElementInfo Description="{x:Null}" Category="Button" Confidence="Runtime" Region="506, 80, 25, 20" />
+                                              </scg:List>
+                                            </uc:CVCache.CvUiElements>
+                                            <uc:CVCache.OcrTexts>
+                                              <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="134">
+                                                <uc:OcrTextInfo Region="104, 27, 73, 9" Text="PLATAFORMA" />
+                                                <uc:OcrTextInfo Region="182, 27, 56, 9" Text="NACIONAL" />
+                                                <uc:OcrTextInfo Region="244, 27, 15, 8" Text="DE" />
+                                                <uc:OcrTextInfo Region="154, 36, 10, 12" Text="S" />
+                                                <uc:OcrTextInfo Region="166, 36, 9, 12" Text="P" />
+                                                <uc:OcrTextInfo Region="177, 36, 11, 12" Text="A" />
+                                                <uc:OcrTextInfo Region="190, 37, 10, 11" Text="R" />
+                                                <uc:OcrTextInfo Region="203, 36, 9, 12" Text="E" />
+                                                <uc:OcrTextInfo Region="215, 36, 10, 12" Text="N" />
+                                                <uc:OcrTextInfo Region="227, 36, 11, 12" Text="c" />
+                                                <uc:OcrTextInfo Region="248, 36, 11, 12" Text="A" />
+                                                <uc:OcrTextInfo Region="343, 31, 41, 16" Text="Inicio" />
+                                                <uc:OcrTextInfo Region="418, 31, 91, 16" Text="Información" />
+                                                <uc:OcrTextInfo Region="513, 31, 54, 16" Text="Pública" />
+                                                <uc:OcrTextInfo Region="601, 31, 82, 16" Text="Solicitudes" />
+                                                <uc:OcrTextInfo Region="723, 32, 53, 19" Text="Quejas" />
+                                                <uc:OcrTextInfo Region="810, 32, 45, 15" Text="Datos" />
+                                                <uc:OcrTextInfo Region="857, 31, 64, 16" Text="Abiertos" />
+                                                <uc:OcrTextInfo Region="955, 31, 89, 16" Text="Estadísticas" />
+                                                <uc:OcrTextInfo Region="533, 82, 59, 16" Text="Cualquier" />
+                                                <uc:OcrTextInfo Region="594, 83, 26, 12" Text="otro" />
+                                                <uc:OcrTextInfo Region="623, 82, 38, 13" Text="medio" />
+                                                <uc:OcrTextInfo Region="663, 82, 49, 13" Text="incluido" />
+                                                <uc:OcrTextInfo Region="714, 82, 18, 13" Text="los" />
+                                                <uc:OcrTextInfo Region="734, 82, 74, 13" Text="electrónicos" />
+                                                <uc:OcrTextInfo Region="255, 98, 11, 15" Text="&lt;" />
+                                                <uc:OcrTextInfo Region="136, 148, 27, 17" Text="SA" />
+                                                <uc:OcrTextInfo Region="506, 159, 64, 14" Text="Solicitud" />
+                                                <uc:OcrTextInfo Region="573, 162, 34, 14" Text="para" />
+                                                <uc:OcrTextInfo Region="609, 160, 59, 13" Text="exentar" />
+                                                <uc:OcrTextInfo Region="669, 162, 36, 14" Text="pago" />
+                                                <uc:OcrTextInfo Region="708, 162, 27, 14" Text="por" />
+                                                <uc:OcrTextInfo Region="736, 159, 97, 17" Text="reproducción" />
+                                                <uc:OcrTextInfo Region="835, 160, 25, 16" Text="y/o" />
+                                                <uc:OcrTextInfo Region="863, 159, 40, 14" Text="envío" />
+                                                <uc:OcrTextInfo Region="906, 162, 26, 14" Text="por" />
+                                                <uc:OcrTextInfo Region="934, 159, 106, 15" Text="circunstancias" />
+                                                <uc:OcrTextInfo Region="1041, 159, 124, 14" Text="socioeconómicas" />
+                                                <uc:OcrTextInfo Region="91, 202, 112, 13" Text="sandra.sanchezm" />
+                                                <uc:OcrTextInfo Region="518, 215, 16, 12" Text="En" />
+                                                <uc:OcrTextInfo Region="536, 217, 28, 10" Text="caso" />
+                                                <uc:OcrTextInfo Region="565, 214, 18, 13" Text="de" />
+                                                <uc:OcrTextInfo Region="584, 214, 65, 13" Text="considerar" />
+                                                <uc:OcrTextInfo Region="651, 217, 24, 13" Text="que" />
+                                                <uc:OcrTextInfo Region="677, 217, 18, 10" Text="no" />
+                                                <uc:OcrTextInfo Region="696, 214, 33, 13" Text="estás" />
+                                                <uc:OcrTextInfo Region="730, 217, 17, 10" Text="en" />
+                                                <uc:OcrTextInfo Region="749, 214, 80, 16" Text="posibilidades" />
+                                                <uc:OcrTextInfo Region="830, 214, 18, 13" Text="de" />
+                                                <uc:OcrTextInfo Region="849, 214, 37, 13" Text="cubrir" />
+                                                <uc:OcrTextInfo Region="888, 214, 19, 13" Text="los" />
+                                                <uc:OcrTextInfo Region="908, 215, 40, 12" Text="costos" />
+                                                <uc:OcrTextInfo Region="950, 214, 17, 13" Text="de" />
+                                                <uc:OcrTextInfo Region="969, 214, 80, 16" Text="reproducción" />
+                                                <uc:OcrTextInfo Region="1050, 215, 22, 15" Text="y/o" />
+                                                <uc:OcrTextInfo Region="1073, 214, 34, 13" Text="envío" />
+                                                <uc:OcrTextInfo Region="1109, 214, 37, 13" Text="indica" />
+                                                <uc:OcrTextInfo Region="1147, 215, 21, 12" Text="tus" />
+                                                <uc:OcrTextInfo Region="1170, 217, 49, 10" Text="razones" />
+                                                <uc:OcrTextInfo Region="1220, 217, 29, 13" Text="para" />
+                                                <uc:OcrTextInfo Region="1251, 217, 24, 13" Text="que" />
+                                                <uc:OcrTextInfo Region="1277, 217, 29, 10" Text="sean" />
+                                                <uc:OcrTextInfo Region="1308, 214, 60, 13" Text="valoradas" />
+                                                <uc:OcrTextInfo Region="1370, 217, 22, 13" Text="por" />
+                                                <uc:OcrTextInfo Region="1394, 214, 12, 13" Text="la" />
+                                                <uc:OcrTextInfo Region="1408, 214, 42, 13" Text="unidad" />
+                                                <uc:OcrTextInfo Region="1452, 214, 17, 13" Text="de" />
+                                                <uc:OcrTextInfo Region="1471, 215, 87, 15" Text="transparencia." />
+                                                <uc:OcrTextInfo Region="30, 290, 72, 13" Text="Solicitudes" />
+                                                <uc:OcrTextInfo Region="103, 290, 18, 13" Text="de" />
+                                                <uc:OcrTextInfo Region="122, 290, 80, 13" Text="Información" />
+                                                <uc:OcrTextInfo Region="257, 294, 9, 7" Text="^" />
+                                                <uc:OcrTextInfo Region="1352, 286, 15, 15" Text="X" />
+                                                <uc:OcrTextInfo Region="44, 327, 54, 16" Text="Registro" />
+                                                <uc:OcrTextInfo Region="99, 327, 18, 13" Text="de" />
+                                                <uc:OcrTextInfo Region="119, 327, 71, 13" Text="Solicitudes" />
+                                                <uc:OcrTextInfo Region="256, 331, 10, 8" Text="^" />
+                                                <uc:OcrTextInfo Region="57, 364, 32, 13" Text="Perfil" />
+                                                <uc:OcrTextInfo Region="506, 357, 22, 13" Text="(Has" />
+                                                <uc:OcrTextInfo Region="56, 402, 80, 13" Text="Información" />
+                                                <uc:OcrTextInfo Region="138, 402, 48, 13" Text="Pública" />
+                                                <uc:OcrTextInfo Region="949, 395, 8, 19" Text="!" />
+                                                <uc:OcrTextInfo Region="1874, 423, 15, 11" Text="^" />
+                                                <uc:OcrTextInfo Region="57, 440, 36, 12" Text="Datos" />
+                                                <uc:OcrTextInfo Region="95, 439, 66, 13" Text="Personales" />
+                                                <uc:OcrTextInfo Region="854, 447, 107, 18" Text="Información" />
+                                                <uc:OcrTextInfo Region="966, 449, 99, 20" Text="Importante" />
+                                                <uc:OcrTextInfo Region="57, 477, 15, 12" Text="Mi" />
+                                                <uc:OcrTextInfo Region="75, 476, 51, 13" Text="Historial" />
+                                                <uc:OcrTextInfo Region="57, 514, 22, 12" Text="Mis" />
+                                                <uc:OcrTextInfo Region="81, 514, 43, 15" Text="Quejas" />
+                                                <uc:OcrTextInfo Region="566, 512, 59, 13" Text="Estimado" />
+                                                <uc:OcrTextInfo Region="633, 512, 51, 13" Text="usuario:" />
+                                                <uc:OcrTextInfo Region="691, 513, 15, 12" Text="te" />
+                                                <uc:OcrTextInfo Region="713, 512, 77, 13" Text="recordamos" />
+                                                <uc:OcrTextInfo Region="798, 515, 26, 13" Text="que" />
+                                                <uc:OcrTextInfo Region="831, 512, 13, 13" Text="el" />
+                                                <uc:OcrTextInfo Region="851, 512, 65, 13" Text="contenido" />
+                                                <uc:OcrTextInfo Region="924, 512, 18, 13" Text="de" />
+                                                <uc:OcrTextInfo Region="949, 513, 28, 12" Text="esta" />
+                                                <uc:OcrTextInfo Region="984, 512, 55, 13" Text="solicitud" />
+                                                <uc:OcrTextInfo Region="1047, 512, 27, 13" Text="será" />
+                                                <uc:OcrTextInfo Region="1082, 512, 52, 16" Text="público." />
+                                                <uc:OcrTextInfo Region="1141, 512, 14, 13" Text="Si" />
+                                                <uc:OcrTextInfo Region="1161, 512, 46, 16" Text="incluye" />
+                                                <uc:OcrTextInfo Region="1215, 512, 37, 13" Text="datos" />
+                                                <uc:OcrTextInfo Region="1260, 512, 72, 16" Text="personales," />
+                                                <uc:OcrTextInfo Region="1340, 513, 14, 12" Text="te" />
+                                                <uc:OcrTextInfo Region="565, 533, 100, 13" Text="recomendamos" />
+                                                <uc:OcrTextInfo Region="668, 534, 62, 15" Text="presentar" />
+                                                <uc:OcrTextInfo Region="733, 536, 25, 10" Text="una" />
+                                                <uc:OcrTextInfo Region="761, 533, 54, 13" Text="solicitud" />
+                                                <uc:OcrTextInfo Region="819, 533, 18, 13" Text="de" />
+                                                <uc:OcrTextInfo Region="840, 533, 36, 13" Text="datos" />
+                                                <uc:OcrTextInfo Region="880, 533, 72, 16" Text="personales," />
+                                                <uc:OcrTextInfo Region="955, 536, 9, 10" Text="a" />
+                                                <uc:OcrTextInfo Region="967, 533, 40, 13" Text="través" />
+                                                <uc:OcrTextInfo Region="1010, 533, 17, 13" Text="de" />
+                                                <uc:OcrTextInfo Region="1030, 533, 13, 13" Text="la" />
+                                                <uc:OcrTextInfo Region="1046, 533, 27, 13" Text="cual" />
+                                                <uc:OcrTextInfo Region="1077, 533, 47, 16" Text="puedes" />
+                                                <uc:OcrTextInfo Region="1127, 533, 45, 16" Text="ejercer" />
+                                                <uc:OcrTextInfo Region="1174, 534, 21, 12" Text="tus" />
+                                                <uc:OcrTextInfo Region="1198, 533, 59, 13" Text="derechos" />
+                                                <uc:OcrTextInfo Region="1260, 533, 39, 13" Text="ARCO" />
+                                                <uc:OcrTextInfo Region="1302, 533, 52, 15" Text="(acceso," />
+                                                <uc:OcrTextInfo Region="566, 555, 80, 13" Text="rectificación," />
+                                                <uc:OcrTextInfo Region="649, 555, 78, 14" Text="cancelación," />
+                                                <uc:OcrTextInfo Region="730, 555, 62, 16" Text="oposición" />
+                                                <uc:OcrTextInfo Region="795, 558, 10, 10" Text="O" />
+                                                <uc:OcrTextInfo Region="807, 555, 87, 16" Text="portabilidad)." />
+                                                <uc:OcrTextInfo Region="1092, 700, 36, 13" Text="Enviar" />
+                                                <uc:OcrTextInfo Region="993, 855, 113, 19" Text="Buscadores" />
+                                                <uc:OcrTextInfo Region="1109, 854, 115, 20" Text="Temáticosv" />
+                                              </scg:List>
+                                            </uc:CVCache.OcrTexts>
+                                          </uc:CVCache>
+                                        </scg:List>
+                                      </uc:CvCacheContainer.Caches>
+                                    </uc:CvCacheContainer>
+                                  </p:CVScope.DesignTimeCacheContainer>
+                                  <p:CVScope.OCREngine>
+                                    <ActivityFunc x:TypeArguments="sd1:Image, scg:IEnumerable(scg:KeyValuePair(sd2:Rectangle, x:String))">
+                                      <ActivityFunc.Argument>
+                                        <DelegateInArgument x:TypeArguments="sd1:Image" Name="Image" />
+                                      </ActivityFunc.Argument>
+                                      <p1:UiPathScreenOCR ApiKey="{x:Null}" Endpoint="{x:Null}" Output="{x:Null}" PredictionId="{x:Null}" Text="{x:Null}" UseAccents="{x:Null}" UseLocalServer="{x:Null}" ComputeSkewAngle="False" ExtractWords="True" sap:VirtualizedContainerService.HintSize="492,25" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_4" Image="[Image]" Language="en" NoopExecution="False" Profile="Screen" Scale="1" Timeout="100000" />
+                                    </ActivityFunc>
+                                  </p:CVScope.OCREngine>
+                                  <p:CVScope.Target>
+                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="69b6da97-4993-41f7-aff0-97da0108103a" InformativeScreenshot="b7671d7e9c0c3449d0b8d2acae2f3140" Selector="&lt;webctrl css-selector='body&amp;gt;p-dynamicdialog&amp;gt;div' tag='DIV' /&gt;" WaitForReady="INTERACTIVE">
+                                      <ui:Target.TimeoutMS>
+                                        <InArgument x:TypeArguments="x:Int32" />
+                                      </ui:Target.TimeoutMS>
+                                    </ui:Target>
+                                  </p:CVScope.Target>
+                                  <p:CVScope.UseLocalServer>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </p:CVScope.UseLocalServer>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </p:CVScope>
+                              </Sequence>
+                            </uix:NCheckState.IfExists>
+                            <uix:NCheckState.IfNotExists>
+                              <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,96" sap2010:WorkflowViewState.IdRef="Sequence_59">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </Sequence>
+                            </uix:NCheckState.IfNotExists>
+                            <uix:NCheckState.Target>
+                              <uix:TargetAnchorable BrowserURL="plataformadetransparencia.org.mx/sisai/solicitudes/mi-historial" ContentHash="YTpvSCgz4EezYOKDHiamnw" DesignTimeRectangle="572, 507, 784, 122" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;p-dynamicdialog&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;app-dialog-aviso&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" Guid="b7f1a63c-7e68-4f40-9007-f4f4515bb645" InformativeScreenshot="18ade7cea7f97569f81f9d5604cc671a.png" Reference="uT86UzNhlUel-TR6kBwA5A/5CvyVSM5Ckup_7p3gGMagw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Plataforma Nacional de Transparencia' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                            </uix:NCheckState.Target>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </uix:NCheckState>
                         </Sequence>
                       </ActivityAction>
                     </ui:ForEachRow.Body>
@@ -2108,5 +2465,6 @@ Select dtDatosDemanda.LoadDataRow(New Object() {
         </uix:NApplicationCard>
       </Sequence>
     </Sequence>
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="450,109" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Proceso terminado&quot;]" />
   </Sequence>
 </Activity>
